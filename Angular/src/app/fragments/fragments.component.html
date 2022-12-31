@@ -1,0 +1,383 @@
+<!-- Import the stylesheet for the Material icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- I think this can be removed. -->
+<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+<!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+
+<!-- Maybe we should get a local stylesheet? -->
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+<!-- Navigation bar -->
+<mat-toolbar color="primary">
+    <span style="width: fit-content; transform: translateY(-1px)">
+        <h3 
+            class='navbar'>
+            Linnaeus
+        </h3>
+    </span>
+
+     <span class="spacer"></span>
+        <button mat-stroked-button 
+            class="navbar" 
+            (click)="this.test('0')">
+                TEST
+        </button>
+    
+    <!--
+    <button mat-stroked-button 
+        *ngIf="!this.commentary_enabled; else commentary_disabled"
+        class="navbar button-margin" 
+        (click)="this.toggle_commentary()">
+            COMMENTARY
+    </button>
+
+    <ng-template #commentary_disabled>
+        <button mat-flat-button 
+        color="accent"
+        class="button-margin"
+        (click)="this.toggle_commentary()">
+            COMMENTARY
+        </button>    
+    </ng-template>
+
+    <button mat-stroked-button 
+        *ngIf="!this.playground_enabled; else playground_disabled"
+        class="navbar button-margin" 
+        (click)="this.toggle_playground()">
+            PLAYGROUND
+    </button>
+
+    <ng-template #playground_disabled>
+        <button mat-flat-button 
+        class="button-margin"
+        color="accent"
+        (click)="this.toggle_playground()">
+            PLAYGROUND
+        </button>    
+    </ng-template>
+
+    <button mat-stroked-button 
+        class="navbar" 
+        [matMenuTriggerFor]="menu">
+            <mat-icon *ngIf="this.window_size > 850" fontIcon="menu"></mat-icon>
+            MENU
+    </button> -->
+
+</mat-toolbar>
+
+<!-- Navigation bar menu -->
+<!-- <mat-menu #menu="matMenu">
+    <div mat-menu-item>V22.11.16</div>
+</mat-menu> -->
+
+<!-- Loading spinner to show data is being retrieved from the server -->
+<!-- <mat-toolbar *ngIf="this.utility.spinner === false" class="progress-toolbar"></mat-toolbar>
+<mat-progress-bar *ngIf="this.utility.spinner" mode="query"></mat-progress-bar> -->
+
+<!-- Secondary toolbar to manage columns -->
+
+<div class="div-padding-lg"></div>
+
+<!-- <hr> -->
+
+<!-- {{ this.linnaeus_db['1'] }} -->
+
+<!-- <div *ngFor="let sandbox of this.linnaeus_array">
+    {{ sandbox.project_title }}
+</div> -->
+
+<!-- Deprecated since mat-form-field is so uncooperative now -->
+<mat-form-field [style.width.%]="90" appearance="outline">
+    <mat-label>Select Sandbox</mat-label>
+    <mat-select>
+        <mat-option *ngFor="let sandbox of this.linnaeus_array" [value]="sandbox.title"
+            (click)="this.request_sandbox(sandbox.title)">
+            {{ sandbox.title }} 
+        </mat-option>
+    </mat-select>
+</mat-form-field> 
+
+<hr>
+
+<mat-tab-group [(selectedIndex)]="this.current_tab">
+    <!-- Introduction Tab -->
+    <mat-tab label="Introduction"> 
+        <div class="div-padding-lg"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3" style="outline: 2px dashed black;">
+                    <mat-selection-list [multiple]="false">
+                        <mat-list-option *ngFor="let content_field of this.current_sandbox.introduction" [value]="content_field.title"
+                        (click)="request_sandbox_content(content_field.title)">
+                            {{ content_field.title }}
+                        </mat-list-option>
+                    </mat-selection-list>
+                </div>
+                <div class="col-9">
+        
+                    <p [innerHTML]="this.current_content.text | safeHtml"></p>
+        
+                </div>
+            </div>
+        </div>
+    </mat-tab>
+    <!-- Index Tab -->
+    <mat-tab label="Index">
+        
+        <hr>
+        <ng-container *ngTemplateOutlet="index_table"></ng-container>
+        
+    </mat-tab>
+
+    <mat-tab label="Taxa"> 
+
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-5 overflow_column">
+                    <mat-tree 
+                        [dataSource]="dataSource" 
+                        [treeControl]="treeControl"
+                        class="example-tree">
+                        <!-- This is the tree node template for leaf nodes -->
+                        <!-- There is inline padding applied to this node using styles.
+                          This padding value depends on the mat-icon-button width. -->
+                        <mat-tree-node 
+                            *matTreeNodeDef="let node" 
+                            matTreeNodeToggle
+                            (click)="this.load_animal_data(node.name)" 
+                            (click)="activeNode = node" 
+                            style="cursor: pointer;"  
+                            [ngClass]="{ 'background-highlight': activeNode === node }"
+                            class="txtColor"                    
+                            >
+                            {{node.name}} [{{node.taxon}}]
+                        </mat-tree-node>
+                        <!-- This is the tree node template for expandable nodes -->
+                        <mat-nested-tree-node 
+                            *matTreeNodeDef="let node; when: hasChild"
+                            (click)="activeNode = node" 
+                            [ngClass]="{ 'background-highlight': activeNode === node }"
+                            >                           
+                            
+                            <div class="mat-tree-node">
+                              <div 
+                                mat-icon-button
+                                
+                                [attr.aria-label]="'Toggle ' + node.name"
+                                [ngClass]="{ 'background-highlight': activeNode === node }"
+                                (click)="activeNode = node"
+                                (click)="this.load_animal_data(node.name)" 
+                                style="cursor: pointer;"
+                                class="txtColor"                    
+                                >
+                                {{node.name}} [{{node.taxon}}]
+                            </div>
+                            <button mat-icon-button [attr.aria-label]="'Toggle ' + node.name" matTreeNodeToggle>
+                                <mat-icon class="mat-icon-rtl-mirror">
+                                  {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+                                </mat-icon>
+                              </button>
+                            </div>
+                            <!-- There is inline padding applied to this div using styles.
+                                This padding value depends on the mat-icon-button width.  -->
+                            <div [class.example-tree-invisible]="!treeControl.isExpanded(node)"
+                                role="group">
+                              <ng-container matTreeNodeOutlet></ng-container>
+                          </div>
+                        </mat-nested-tree-node>
+                      </mat-tree>
+                      
+
+                      <!-- <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+                        <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+                          <button mat-icon-button disabled></button>
+                          {{node.item}}
+                        </mat-tree-node>
+                        <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding
+                        [matTreeNodePaddingIndent]="10">
+                        <div 
+                            [attr.aria-label]="'Toggle ' + node.item" 
+                            (click)="this.test(node.item)" 
+                            matTreeNodeToggle
+                            style="cursor: pointer;">
+                            {{node.item}}
+                        </div>
+                          <button mat-icon-button (click)="this.test(node.item)"
+                                  [attr.aria-label]="'Toggle ' + node.item" matTreeNodeToggle>
+                            <mat-icon class="mat-icon-rtl-mirror">
+                              {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+                            </mat-icon>
+                          </button>
+                        </mat-tree-node>
+                      </mat-tree> -->
+
+
+
+
+                </div>
+
+                <div class="col-7 overflow_column">
+
+                    <mat-tab-group>
+                        <mat-tab label="Description"> <hr>
+                            <h3>{{ this.current_animal_content.name }} [{{ this.current_animal_content.taxon }}]</h3>
+                            <p [innerHTML]="this.current_animal_content.description | safeHtml"></p>
+                        </mat-tab>
+                        <mat-tab label="Nomenclature"> <hr>
+                            Content 2 
+                        </mat-tab>
+                        <mat-tab label="Literature"> <hr>
+                            Content 3 
+                        </mat-tab>
+                        <mat-tab label="Media"> <hr> 
+                            Content 3 
+                        </mat-tab>
+                    </mat-tab-group>               
+
+        
+                </div>
+            </div>
+        </div>
+
+
+
+
+              
+    </mat-tab>
+    
+    <mat-tab label="Glossary"> 
+        <hr>
+        <ng-container *ngTemplateOutlet="glossary_table"></ng-container>
+    </mat-tab>
+    
+    <mat-tab label="Literature"> Literature </mat-tab>
+    <mat-tab label="Advanced Search"> Advanced Search </mat-tab>
+
+  </mat-tab-group>
+  
+
+
+<!-- <div [style.background-image]="url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16')"></div> -->
+<!-- <div [ngStyle]="{'background-image': 'url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16')'}"></div> -->
+<!-- <img src="https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16" alt="Flowers in Chania"> -->
+<!-- <hr> -->
+<ng-template #index_table>
+    
+    <mat-checkbox class="example-margin"
+                  (change)="this.table_filter('lower_taxa')">
+      Lower Taxa
+    </mat-checkbox>
+
+
+    <mat-form-field>
+        <mat-label>Filter</mat-label>
+        <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+    </mat-form-field>
+    
+    <div class="mat-elevation-z8">
+        <table mat-table [dataSource]="index_table_data_source" matSort>
+
+            <!--- Note that these columns can be defined in any order.
+                The actual rendered columns are set as a property on the row definition" -->
+            <!-- Position Column -->
+            <ng-container matColumnDef="animal_name">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Animal name </th>
+            <td mat-cell *matCellDef="let row"> {{row.animal_name}} </td>
+            </ng-container>
+        
+            <!-- Name Column -->
+            <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+            <td mat-cell *matCellDef="let row"> {{row.taxon_href_id}} </td>
+            </ng-container>
+        
+            <!-- Weight Column -->
+            <ng-container matColumnDef="category">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Category </th>
+                <td mat-cell *matCellDef="let row"> {{row.category}} </td>
+            </ng-container>
+               
+            <tr mat-header-row *matHeaderRowDef="index_table_columns"></tr>
+            <tr 
+                mat-row
+                (click)="this.current_tab = 2"
+                (click)="this.load_animal_data(row.animal_name)"
+                (click)="this.expand_tree_to_node(row.animal_name)"
+                *matRowDef="let row; columns: index_table_columns;"
+            ></tr>
+
+            <!-- Row shown when there is no matching data. -->
+            <tr class="mat-row" *matNoDataRow>
+                <td 
+                    class="mat-cell" 
+                    colspan="4"
+                    style="cursor: pointer;"  
+                >
+                No data matching the filter "{{input.value}}"</td>
+            </tr>
+
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+
+    </div> 
+      
+</ng-template>
+
+<ng-template #glossary_table>
+
+    <table mat-table
+        [dataSource]="glossary_data_source" multiTemplateDataRows
+        class="mat-elevation-z8">
+    <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">
+        <th mat-header-cell *matHeaderCellDef> {{column}} </th>
+        <td mat-cell *matCellDef="let element"> {{element[column]}} </td>
+    </ng-container>
+    <ng-container matColumnDef="expand">
+        <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
+        <td mat-cell *matCellDef="let element">
+        <button mat-icon-button aria-label="expand row" (click)="(expandedElement = expandedElement === element ? null : element); $event.stopPropagation()">
+            <mat-icon *ngIf="expandedElement !== element">keyboard_arrow_down</mat-icon>
+            <mat-icon *ngIf="expandedElement === element">keyboard_arrow_up</mat-icon>
+        </button>
+        </td>
+    </ng-container>
+
+    <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
+    <ng-container matColumnDef="expandedDetail">
+        <td mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplayWithExpand.length">
+        <div class="example-element-detail"
+        
+            [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+        
+        
+            <!-- [@detailExpand]="user_table_expanded_element === element['username'] ? 'expanded' : 'collapsed'"> -->
+
+            <!-- <div class="example-element-diagram">
+            <div class="example-element-position"> {{element.content}} </div>
+            <div class="example-element-symbol"> {{element.symbol}} </div>
+            <div class="example-element-name"> {{element.name}} </div>
+            <div class="example-element-weight"> {{element.weight}} </div>
+            </div> -->
+            <div class="example-element-description">
+                <p [innerHTML]="element.content | safeHtml"></p>
+            <!-- <span class="example-element-description-attribution"> -- Wikipedia </span> -->
+            </div>
+        </div>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplayWithExpand"></tr>
+    <tr mat-row *matRowDef="let element; columns: columnsToDisplayWithExpand;"
+        class="example-element-row"
+        [class.example-expanded-row]="expandedElement === element"
+        (click)="expandedElement = expandedElement === element ? null : element">
+    </tr>
+    <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
+    </table>
+
+</ng-template>

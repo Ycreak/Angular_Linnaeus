@@ -1,0 +1,18 @@
+sandbox = {
+    '_id': '',
+    'title': '',
+    'url': '',
+    'introduction': (),
+    'index': (),
+    'higher_taxa': (),
+    'species': (),
+    'single_access_key': (),
+    'multi_access_key': (),
+    'glossary': (),
+    'literature': (),
+    'host': (),
+    'matrix_key_guide': (),
+    'morphology': (),
+    'advanced_search': (),
+    'habitat': (),
+}

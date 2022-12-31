@@ -1,0 +1,1146 @@
+{
+  "1": {
+    "id": 0,
+    "project_title": "Aetideidae of the World Ocean",
+    "project_url": "http://aetideidae.linnaeus.naturalis.nl",
+    "content": [
+      {
+        "id": 3422,
+        "title": "Welcome",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16');\"></div>\n<p>This program is a revised edition of the Identification Manual by Elena L. Markhaseva (1996),</p>\n<p><b>Calanoid Copepods of the Family Aetideidae of the World Ocean</b><i>.</i></p>\n<p>[Proceedings of the Zoological Institute, Russian Academy of Sciences, St. Petersburg, volume 268. ISSN 0206-0477]. For the first time a fully illustrated, interactive key is presented to the species of this family. Only those few species were excluded from the Manual and this program which were inadequately described and no material of which was seen by the author.<br/><br/>The calanoid copepods are free-living, planktonic crustaceans, which form an important link in the food chain of the marine environment, forming the food source of economically important fishes like herring, but also of some whales and seals. The 180 known species of the family Aetideidae are predominantly oceanic, occurring in tropical to polar waters and in all vertical ranges of the pelagic zone. Many species belong to the deep-water plankton or inhabit the hyperbenthic environment. Only a few species inhabit brackish or fresh waters.</p>\n</div>"
+      },
+      {
+        "id": 3423,
+        "title": "Contributors",
+        "text": "<div class=\"proze\" id=\"content\">\n<p>The work was performed primarily at the Zoological Institute, Russian Academy of Sciences (St. Petersburg) using the museum's collections, but it proved impossible without access to the collections of other museums and institutes.<br/><br/>I thank my colleagues for their help in obtaining material for study. I am particularly grateful to Academician M.E. Vinogradov (Institute of Oceanology, Moscow) and to Dr. M.V. Heptner (Zoological Museum of the Moscow State University) for placing at my disposal the unique collection of deepwater plankton catches obtained during the cruises of the R/V \"Vitjaz\".<br/><br/>In this work I also used material from the N.M.N.H. (Smithsonian Institute, Washington D.C.), and I am very grateful to Dr. F.D. Ferrari for lending this collection to me.<br/><br/>In the final stages of my investigations the opportunity arose to examine the collection of Aetideidae identified by G.O. Sars, housed in the Zoological Museum of Oslo. Type specimen of Aetideidae (except for <i>Pseudochirella spectabilis</i> Sars, 1900) were not designated but all specimen were originally identified by Sars and are still labeled with Sars's original hand-written labels. This makes it possible to understand how Sars himself comprehended each species. During the work on this collection many questions which had arisen could be resolved. I am very grateful to Prof. M. Christiansen (Zoological Museum, University of Oslo) for giving me the opportunity to work with this collection.<br/><br/>Illustrations were taken from a variety of publications and the author especially wishes to thank Dr. Tai Soo Park and Dr. Janet M. Bradford-Grieve for granting permission to include illustrations from their many fine works. Permission was also granted by the publishers of the following publications: <b>Bolletim Zoologia</b> (Prof. Elizabeth H\u00f6fling, Universidade de S<o b=\"\" brasil=\"\" paulo=\"\">Bulletin of the Museum of Comparative Zoology (Michael Jackson, Harvard University, Cambridge, Massachusetts, U.S.A.); <b>Bulletin of the U.S. National Museum</b> (Dr. Frank Ferrari, National Museum of Natural History, Washington D.C., U.S.A.); <b>Ci\u00eancas Cultural, S<o b=\"\" paulo=\"\"> (Luiz R. Travassos, S<o b=\"\" brasil=\"\" paulo=\"\">Crustaceana</o></o></b> (Koninklijke Brill N.V., Leiden, The Netherlands); <b>Hydrobiologia</b> (Berendina van Straalen, Kluwer Academic Publishers, Dordrecht, The Netherlands); <b>Journal of Zoology, London</b> (April Boffin, Oxford University Press, Oxford, U.K.); <b>Mitteilungen des hamburger zoologisches Museum und Instituts</b> (Dr. Knud Schultz, Universit\u00e4t Hamburg, Hamburg, Germany); <b>Pacific Science</b> (Keith K. Leber, University of Hawaii Press, Honolulu, Hawaii, U.S.A.); <b>Publications of the Seto marine biological Laboratory</b> (Prof. Shin Kubota, Kyoto University, Japan); <b>Sarsia</b> (Ulf B\u00e5mstedt, University of Bergen, Norway); <b>Zoologische Verhandelingen, Leiden</b> (Marc de Hart, Naturalis, N.N.M., Leiden, The Netherlands).<br/><br/>For the electronic version the separate keys of the original publication were updated into a single, fully illustrated key by the author and Henk Visser MSc. of the Expert Center for Taxonomic Identification (ETI). Additional information on higher taxa was compiled by Dr. Julia Kouwenberg and reworked by Huub Veldhuijzen van Zanten. Additional illustrations were made by Sasja van Meel MSc. Digital formatting of the text and illustrations by ing. Taghi Zandvakili.</o></p>\n</div>"
+      },
+      {
+        "id": 2906,
+        "title": "Introduction",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16');\"></div>\n<p>This program is an electronic version of a recent revision by the author (Markhaseva, 1996) on the calanoid family Aetideidae, and forms a sequel to the book \"Oar-footed crustaceans (Copepoda, Calanoida) of the USSR seas and adjacent waters\" (Brodsky et al., 1983). Latter publication includes a \"General part\" (Brodsky, 1983: 9-138) with data on morphology, classification, geographical distribution and biology of some species of the Calanoida, and a \"Systematic part\" (Brodsky et al., 1983: 139-356) with descriptions of, and identification keys to, calanoid copepods of the families Calanidae up to and including Spinocalanidae.<br/><br/>This program contains an identification section and databases for the 25 genera and 165 species which are included in this revision. At the moment of publication (printed version: Markhaseva, 1996) about 180 species of Aetideidae were described, with most of the omitted species too poorly described to be included in this revision and material not examined by the author.<br/><br/><b>Note:</b> The Genus <i>Senecella</i>  as mostly fresh-water genus is not included into the key. The small key to the two species of <i>Senecella</i>  can be found into the Higher Taxa module under Genus <i>Senecella</i>.</p>\n</div>"
+      },
+      {
+        "id": 2907,
+        "title": "Order calanoida",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/8_41658a2ad20fbe8/14998_24bf94cec2440a4.jpg?v=2016-06-16+12%3A38%3A17');\"></div>\n<p><b>Ecology &amp; Distribution</b>:<br/><br/>Calanoids form an order of the Copepoda; most calanoids are free-living and marine, though some groups are restricted to freshwater. The majority are planktonic, but some live on, or close to, the sea bottom. They are found in all oceans, from the surface to over 5000 m in depth. Many are known to perform diurnal migration, descending to deep water at day and rising to the surface at night. They are the dominant group in the marine zooplankton. Their feeding habits vary with species and with developmental stages of the same species. They may be herbivorous, mixed-mode feeders, predators, or scavengers. Calanoids form a very important link in the food chain of the aquatic environment. They feed on phytoplankton and microzooplankton, and at times attack animals which are much larger than themselves, such as chaetognaths and larval fish. Most calanoids store foods in a fat body or in a midgut oil sac, which often gives the body a red or blue color. They are preyed upon by larger zooplankton and are known to be the major food of larval fish, small pelagic fishes such as herring, and of some whales and seals.</p>\n</div>"
+      },
+      {
+        "id": 2908,
+        "title": "Family aetideidae",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/9_366865fa09886cb/14999_fed9db7e2d5f4bb.jpg?v=2016-06-16+12%3A38%3A17');\"></div>\n<p><b>Ecology &amp; Distribution</b>:<br/><br/>The aetideid species are mostly oceanic inhabitants, occurring in all vertical ranges of the marine pelagic zone, and inhabiting also the hyperbenthic environment. A significant number of species form part of deep-water plankton. Most of the meso- and bathypelagic species are characterized by wide geographical ranges, occurring in tropical to polar waters. A number of aetideid species may also be found in brackish (<i>Jaschnovia</i>  spp.) and fresh (<i>Senecella</i>  spp.) waters.<br/><br/>In order to obtain comprehensive information on geographical distribution of the presented cosmopolitan calanoid family, the present program was based on material from numerous localities in the world's oceans.</p>\n</div>"
+      },
+      {
+        "id": 2909,
+        "title": "Abbreviations",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/5/0/0/0_20110487849541e/15000_b96260f74f06791.jpg?v=2016-06-16+12%3A38%3A18');\"></div>\n<p>The following abbreviations are used in the descriptions of the species and higher taxa:<br/><br/>Abd 1 (2-5) -  abdomen,<br/>                        first (second-fifth) segments<br/>A1              -   antennule<br/>A2              -   antenna<br/>B                 -   basipodite<br/>C                 -   coxopodite<br/>P                 -   protopodite<br/>Ce               -   head, cephalon<br/>Gn              -   genital segment<br/>Gnb            -   gnathobase <br/>Md             -   mandible<br/>Mx1           -   maxillule<br/>Mx2           -   maxilla<br/>Mxp           -   maxilliped<br/>P.md          -   mandibular palp<br/>P1-P5         -   first-fifth pairs of thoracic<br/>                       (swimming) legs<br/>R                -   rostrum<br/>Re              -   exopodite<br/>Ri               -   endopodite<br/>Th1-Th5   -   thorax, 1-5-thoracic<br/>                       segments</p>\n</div>"
+      }
+    ],
+    "index": {
+      "lower_taxa": [
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125461&epi=193",
+          "taxon_href_id": 125461,
+          "animal_name": "Aetideopsis albatrossae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125462&epi=193",
+          "taxon_href_id": 125462,
+          "animal_name": "Aetideopsis armata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125463&epi=193",
+          "taxon_href_id": 125463,
+          "animal_name": "Aetideopsis carinata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125464&epi=193",
+          "taxon_href_id": 125464,
+          "animal_name": "Aetideopsis cristata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125465&epi=193",
+          "taxon_href_id": 125465,
+          "animal_name": "Aetideopsis minor"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125466&epi=193",
+          "taxon_href_id": 125466,
+          "animal_name": "Aetideopsis multiserrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125467&epi=193",
+          "taxon_href_id": 125467,
+          "animal_name": "Aetideopsis retusa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125468&epi=193",
+          "taxon_href_id": 125468,
+          "animal_name": "Aetideopsis rostrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125469&epi=193",
+          "taxon_href_id": 125469,
+          "animal_name": "Aetideopsis tumorosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125470&epi=193",
+          "taxon_href_id": 125470,
+          "animal_name": "Aetideus acutus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125471&epi=193",
+          "taxon_href_id": 125471,
+          "animal_name": "Aetideus arcuatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125472&epi=193",
+          "taxon_href_id": 125472,
+          "animal_name": "Aetideus armatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125473&epi=193",
+          "taxon_href_id": 125473,
+          "animal_name": "Aetideus bradyi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125474&epi=193",
+          "taxon_href_id": 125474,
+          "animal_name": "Aetideus divergens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125475&epi=193",
+          "taxon_href_id": 125475,
+          "animal_name": "Aetideus giesbrechti"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125476&epi=193",
+          "taxon_href_id": 125476,
+          "animal_name": "Aetideus mexicanus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125477&epi=193",
+          "taxon_href_id": 125477,
+          "animal_name": "Aetideus pacificus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125478&epi=193",
+          "taxon_href_id": 125478,
+          "animal_name": "Aetideus pseudarmatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125479&epi=193",
+          "taxon_href_id": 125479,
+          "animal_name": "Aetideus truncatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125480&epi=193",
+          "taxon_href_id": 125480,
+          "animal_name": "Azygokeras columbiae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125481&epi=193",
+          "taxon_href_id": 125481,
+          "animal_name": "Batheuchaeta anomala"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125482&epi=193",
+          "taxon_href_id": 125482,
+          "animal_name": "Batheuchaeta antarctica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125483&epi=193",
+          "taxon_href_id": 125483,
+          "animal_name": "Batheuchaeta gurjanovae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125484&epi=193",
+          "taxon_href_id": 125484,
+          "animal_name": "Batheuchaeta heptneri"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125485&epi=193",
+          "taxon_href_id": 125485,
+          "animal_name": "Batheuchaeta lamellata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125486&epi=193",
+          "taxon_href_id": 125486,
+          "animal_name": "Batheuchaeta peculiaris"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125487&epi=193",
+          "taxon_href_id": 125487,
+          "animal_name": "Batheuchaeta pubescens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125488&epi=193",
+          "taxon_href_id": 125488,
+          "animal_name": "Batheuchaeta tuberculata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125489&epi=193",
+          "taxon_href_id": 125489,
+          "animal_name": "Bradyetes inermis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125490&epi=193",
+          "taxon_href_id": 125490,
+          "animal_name": "Bradyetes matthei"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125491&epi=193",
+          "taxon_href_id": 125491,
+          "animal_name": "Bradyidius angustus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125492&epi=193",
+          "taxon_href_id": 125492,
+          "animal_name": "Bradyidius armatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125493&epi=193",
+          "taxon_href_id": 125493,
+          "animal_name": "Bradyidius arnoldi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125494&epi=193",
+          "taxon_href_id": 125494,
+          "animal_name": "Bradyidius curtus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125495&epi=193",
+          "taxon_href_id": 125495,
+          "animal_name": "Bradyidius luluae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125496&epi=193",
+          "taxon_href_id": 125496,
+          "animal_name": "Bradyidius pacificus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125497&epi=193",
+          "taxon_href_id": 125497,
+          "animal_name": "Bradyidius rakuma"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125498&epi=193",
+          "taxon_href_id": 125498,
+          "animal_name": "Bradyidius saanichi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125499&epi=193",
+          "taxon_href_id": 125499,
+          "animal_name": "Bradyidius similis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125500&epi=193",
+          "taxon_href_id": 125500,
+          "animal_name": "Bradyidius subarmatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125501&epi=193",
+          "taxon_href_id": 125501,
+          "animal_name": "Chiridiella abyssalis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125502&epi=193",
+          "taxon_href_id": 125502,
+          "animal_name": "Chiridiella bichela"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125503&epi=193",
+          "taxon_href_id": 125503,
+          "animal_name": "Chiridiella bispinosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125504&epi=193",
+          "taxon_href_id": 125504,
+          "animal_name": "Chiridiella brachydactyla"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125505&epi=193",
+          "taxon_href_id": 125505,
+          "animal_name": "Chiridiella brooksi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125506&epi=193",
+          "taxon_href_id": 125506,
+          "animal_name": "Chiridiella chainae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125507&epi=193",
+          "taxon_href_id": 125507,
+          "animal_name": "Chiridiella gibba"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125508&epi=193",
+          "taxon_href_id": 125508,
+          "animal_name": "Chiridiella kuniae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125509&epi=193",
+          "taxon_href_id": 125509,
+          "animal_name": "Chiridiella macrodactyla"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125510&epi=193",
+          "taxon_href_id": 125510,
+          "animal_name": "Chiridiella ovata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125511&epi=193",
+          "taxon_href_id": 125511,
+          "animal_name": "Chiridiella pacifica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125512&epi=193",
+          "taxon_href_id": 125512,
+          "animal_name": "Chiridiella reductella"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125513&epi=193",
+          "taxon_href_id": 125513,
+          "animal_name": "Chiridiella sarsi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125514&epi=193",
+          "taxon_href_id": 125514,
+          "animal_name": "Chiridiella smoki"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125515&epi=193",
+          "taxon_href_id": 125515,
+          "animal_name": "Chiridiella subaequalis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125516&epi=193",
+          "taxon_href_id": 125516,
+          "animal_name": "Chiridius gracilis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125517&epi=193",
+          "taxon_href_id": 125517,
+          "animal_name": "Chiridius longispinus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125518&epi=193",
+          "taxon_href_id": 125518,
+          "animal_name": "Chiridius molestus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125519&epi=193",
+          "taxon_href_id": 125519,
+          "animal_name": "Chiridius obtusifrons"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125520&epi=193",
+          "taxon_href_id": 125520,
+          "animal_name": "Chiridius pacificus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125521&epi=193",
+          "taxon_href_id": 125521,
+          "animal_name": "Chiridius polaris"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125522&epi=193",
+          "taxon_href_id": 125522,
+          "animal_name": "Chiridius poppei"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125523&epi=193",
+          "taxon_href_id": 125523,
+          "animal_name": "Chirundina alaskaensis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125524&epi=193",
+          "taxon_href_id": 125524,
+          "animal_name": "Chirundina indica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125525&epi=193",
+          "taxon_href_id": 125525,
+          "animal_name": "Chirundina streetsii"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125526&epi=193",
+          "taxon_href_id": 125526,
+          "animal_name": "Chirundinella magna"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125527&epi=193",
+          "taxon_href_id": 125527,
+          "animal_name": "Comantenna brevicornis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125528&epi=193",
+          "taxon_href_id": 125528,
+          "animal_name": "Comantenna crassa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125529&epi=193",
+          "taxon_href_id": 125529,
+          "animal_name": "Comantenna curtisetosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125530&epi=193",
+          "taxon_href_id": 125530,
+          "animal_name": "Comantenna recurvata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125531&epi=193",
+          "taxon_href_id": 125531,
+          "animal_name": "Crassantenna comosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125532&epi=193",
+          "taxon_href_id": 125532,
+          "animal_name": "Crassantenna mimorostrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125533&epi=193",
+          "taxon_href_id": 125533,
+          "animal_name": "Euchirella amoena"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125534&epi=193",
+          "taxon_href_id": 125534,
+          "animal_name": "Euchirella bella"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125535&epi=193",
+          "taxon_href_id": 125535,
+          "animal_name": "Euchirella bitumida"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125536&epi=193",
+          "taxon_href_id": 125536,
+          "animal_name": "Euchirella curticauda"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125537&epi=193",
+          "taxon_href_id": 125537,
+          "animal_name": "Euchirella formosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125538&epi=193",
+          "taxon_href_id": 125538,
+          "animal_name": "Euchirella galeata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125539&epi=193",
+          "taxon_href_id": 125539,
+          "animal_name": "Euchirella grandicornis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125540&epi=193",
+          "taxon_href_id": 125540,
+          "animal_name": "Euchirella maxima"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125541&epi=193",
+          "taxon_href_id": 125541,
+          "animal_name": "Euchirella messinensis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125626&epi=193",
+          "taxon_href_id": 125626,
+          "animal_name": "Euchirella messinensis  indica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125627&epi=193",
+          "taxon_href_id": 125627,
+          "animal_name": "Euchirella messinensis  messinensis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125542&epi=193",
+          "taxon_href_id": 125542,
+          "animal_name": "Euchirella pseudopulchra"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125543&epi=193",
+          "taxon_href_id": 125543,
+          "animal_name": "Euchirella pseudotruncata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125544&epi=193",
+          "taxon_href_id": 125544,
+          "animal_name": "Euchirella pulchra"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125545&epi=193",
+          "taxon_href_id": 125545,
+          "animal_name": "Euchirella rostrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125546&epi=193",
+          "taxon_href_id": 125546,
+          "animal_name": "Euchirella similis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125547&epi=193",
+          "taxon_href_id": 125547,
+          "animal_name": "Euchirella speciosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125548&epi=193",
+          "taxon_href_id": 125548,
+          "animal_name": "Euchirella splendens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125549&epi=193",
+          "taxon_href_id": 125549,
+          "animal_name": "Euchirella truncata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125550&epi=193",
+          "taxon_href_id": 125550,
+          "animal_name": "Euchirella unispina"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125551&epi=193",
+          "taxon_href_id": 125551,
+          "animal_name": "Euchirella venusta"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125552&epi=193",
+          "taxon_href_id": 125552,
+          "animal_name": "Gaetanus antarcticus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125553&epi=193",
+          "taxon_href_id": 125553,
+          "animal_name": "Gaetanus armiger"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125554&epi=193",
+          "taxon_href_id": 125554,
+          "animal_name": "Gaetanus brachyurus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125555&epi=193",
+          "taxon_href_id": 125555,
+          "animal_name": "Gaetanus brevicaudatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125556&epi=193",
+          "taxon_href_id": 125556,
+          "animal_name": "Gaetanus brevicornis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125557&epi=193",
+          "taxon_href_id": 125557,
+          "animal_name": "Gaetanus brevirostris"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125558&epi=193",
+          "taxon_href_id": 125558,
+          "animal_name": "Gaetanus brevispinus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125559&epi=193",
+          "taxon_href_id": 125559,
+          "animal_name": "Gaetanus curvicornis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125560&epi=193",
+          "taxon_href_id": 125560,
+          "animal_name": "Gaetanus inermis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125561&epi=193",
+          "taxon_href_id": 125561,
+          "animal_name": "Gaetanus kruppii"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125562&epi=193",
+          "taxon_href_id": 125562,
+          "animal_name": "Gaetanus latifrons"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125563&epi=193",
+          "taxon_href_id": 125563,
+          "animal_name": "Gaetanus miles"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125564&epi=193",
+          "taxon_href_id": 125564,
+          "animal_name": "Gaetanus minispinus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125565&epi=193",
+          "taxon_href_id": 125565,
+          "animal_name": "Gaetanus minor"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125566&epi=193",
+          "taxon_href_id": 125566,
+          "animal_name": "Gaetanus minutus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125567&epi=193",
+          "taxon_href_id": 125567,
+          "animal_name": "Gaetanus paracurvicornis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125568&epi=193",
+          "taxon_href_id": 125568,
+          "animal_name": "Gaetanus pileatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125569&epi=193",
+          "taxon_href_id": 125569,
+          "animal_name": "Gaetanus pseudolatifrons"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125570&epi=193",
+          "taxon_href_id": 125570,
+          "animal_name": "Gaetanus pungens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125571&epi=193",
+          "taxon_href_id": 125571,
+          "animal_name": "Gaetanus robustus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125572&epi=193",
+          "taxon_href_id": 125572,
+          "animal_name": "Gaetanus rubellus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125573&epi=193",
+          "taxon_href_id": 125573,
+          "animal_name": "Gaetanus secundus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125574&epi=193",
+          "taxon_href_id": 125574,
+          "animal_name": "Gaetanus simplex"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125575&epi=193",
+          "taxon_href_id": 125575,
+          "animal_name": "Gaetanus tenuispinus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125576&epi=193",
+          "taxon_href_id": 125576,
+          "animal_name": "Jaschnovia brevis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125577&epi=193",
+          "taxon_href_id": 125577,
+          "animal_name": "Jaschnovia tolli"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125578&epi=193",
+          "taxon_href_id": 125578,
+          "animal_name": "Lutamator elegans"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125579&epi=193",
+          "taxon_href_id": 125579,
+          "animal_name": "Lutamator hurlei"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125580&epi=193",
+          "taxon_href_id": 125580,
+          "animal_name": "Mesocomantenna spinosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125581&epi=193",
+          "taxon_href_id": 125581,
+          "animal_name": "Paivella inaciae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125582&epi=193",
+          "taxon_href_id": 125582,
+          "animal_name": "Paivella naporai"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125583&epi=193",
+          "taxon_href_id": 125583,
+          "animal_name": "Paracomantenna gracilis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125584&epi=193",
+          "taxon_href_id": 125584,
+          "animal_name": "Paracomantenna magalyae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125585&epi=193",
+          "taxon_href_id": 125585,
+          "animal_name": "Paracomantenna minor"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125586&epi=193",
+          "taxon_href_id": 125586,
+          "animal_name": "Pseudeuchaeta arctica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125587&epi=193",
+          "taxon_href_id": 125587,
+          "animal_name": "Pseudeuchaeta brevicauda"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125588&epi=193",
+          "taxon_href_id": 125588,
+          "animal_name": "Pseudeuchaeta flexuosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125589&epi=193",
+          "taxon_href_id": 125589,
+          "animal_name": "Pseudeuchaeta magna"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125590&epi=193",
+          "taxon_href_id": 125590,
+          "animal_name": "Pseudeuchaeta major"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125591&epi=193",
+          "taxon_href_id": 125591,
+          "animal_name": "Pseudeuchaeta spinata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125592&epi=193",
+          "taxon_href_id": 125592,
+          "animal_name": "Pseudochirella accepta"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125593&epi=193",
+          "taxon_href_id": 125593,
+          "animal_name": "Pseudochirella batillipa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125594&epi=193",
+          "taxon_href_id": 125594,
+          "animal_name": "Pseudochirella bilobata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125595&epi=193",
+          "taxon_href_id": 125595,
+          "animal_name": "Pseudochirella bowmani"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125596&epi=193",
+          "taxon_href_id": 125596,
+          "animal_name": "Pseudochirella dentata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125597&epi=193",
+          "taxon_href_id": 125597,
+          "animal_name": "Pseudochirella divaricata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125598&epi=193",
+          "taxon_href_id": 125598,
+          "animal_name": "Pseudochirella dubia"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125599&epi=193",
+          "taxon_href_id": 125599,
+          "animal_name": "Pseudochirella fallax"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125600&epi=193",
+          "taxon_href_id": 125600,
+          "animal_name": "Pseudochirella formosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125601&epi=193",
+          "taxon_href_id": 125601,
+          "animal_name": "Pseudochirella gibbera"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125602&epi=193",
+          "taxon_href_id": 125602,
+          "animal_name": "Pseudochirella hirsuta"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125603&epi=193",
+          "taxon_href_id": 125603,
+          "animal_name": "Pseudochirella limata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125604&epi=193",
+          "taxon_href_id": 125604,
+          "animal_name": "Pseudochirella lobata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125605&epi=193",
+          "taxon_href_id": 125605,
+          "animal_name": "Pseudochirella mariana"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125606&epi=193",
+          "taxon_href_id": 125606,
+          "animal_name": "Pseudochirella mawsoni"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125607&epi=193",
+          "taxon_href_id": 125607,
+          "animal_name": "Pseudochirella notacantha"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125608&epi=193",
+          "taxon_href_id": 125608,
+          "animal_name": "Pseudochirella obesa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125609&epi=193",
+          "taxon_href_id": 125609,
+          "animal_name": "Pseudochirella obtusa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125610&epi=193",
+          "taxon_href_id": 125610,
+          "animal_name": "Pseudochirella pacifica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125611&epi=193",
+          "taxon_href_id": 125611,
+          "animal_name": "Pseudochirella palliata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125612&epi=193",
+          "taxon_href_id": 125612,
+          "animal_name": "Pseudochirella pustulifera"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125613&epi=193",
+          "taxon_href_id": 125613,
+          "animal_name": "Pseudochirella scopularis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125614&epi=193",
+          "taxon_href_id": 125614,
+          "animal_name": "Pseudochirella spectabilis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125615&epi=193",
+          "taxon_href_id": 125615,
+          "animal_name": "Pseudochirella spinosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125616&epi=193",
+          "taxon_href_id": 125616,
+          "animal_name": "Pseudochirella tanakai"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125617&epi=193",
+          "taxon_href_id": 125617,
+          "animal_name": "Pseudochirella vervoorti"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125618&epi=193",
+          "taxon_href_id": 125618,
+          "animal_name": "Pterochirella tuerkayi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125619&epi=193",
+          "taxon_href_id": 125619,
+          "animal_name": "Senecella calanoides"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125620&epi=193",
+          "taxon_href_id": 125620,
+          "animal_name": "Senecella siberica"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125621&epi=193",
+          "taxon_href_id": 125621,
+          "animal_name": "Sursamucro spinatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125622&epi=193",
+          "taxon_href_id": 125622,
+          "animal_name": "Undeuchaeta incisa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125623&epi=193",
+          "taxon_href_id": 125623,
+          "animal_name": "Undeuchaeta intermedia"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125624&epi=193",
+          "taxon_href_id": 125624,
+          "animal_name": "Undeuchaeta major"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125625&epi=193",
+          "taxon_href_id": 125625,
+          "animal_name": "Undeuchaeta plumosa"
+        }
+      ],
+      "higher_taxa": [
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125461&epi=193",
+          "taxon_href_id": 125461,
+          "animal_name": "Aetideopsis albatrossae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125462&epi=193",
+          "taxon_href_id": 125462,
+          "animal_name": "Aetideopsis armata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125463&epi=193",
+          "taxon_href_id": 125463,
+          "animal_name": "Aetideopsis carinata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125464&epi=193",
+          "taxon_href_id": 125464,
+          "animal_name": "Aetideopsis cristata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125465&epi=193",
+          "taxon_href_id": 125465,
+          "animal_name": "Aetideopsis minor"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125466&epi=193",
+          "taxon_href_id": 125466,
+          "animal_name": "Aetideopsis multiserrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125467&epi=193",
+          "taxon_href_id": 125467,
+          "animal_name": "Aetideopsis retusa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125468&epi=193",
+          "taxon_href_id": 125468,
+          "animal_name": "Aetideopsis rostrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125469&epi=193",
+          "taxon_href_id": 125469,
+          "animal_name": "Aetideopsis tumorosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125470&epi=193",
+          "taxon_href_id": 125470,
+          "animal_name": "Aetideus acutus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125471&epi=193",
+          "taxon_href_id": 125471,
+          "animal_name": "Aetideus arcuatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125472&epi=193",
+          "taxon_href_id": 125472,
+          "animal_name": "Aetideus armatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125473&epi=193",
+          "taxon_href_id": 125473,
+          "animal_name": "Aetideus bradyi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125474&epi=193",
+          "taxon_href_id": 125474,
+          "animal_name": "Aetideus divergens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125475&epi=193",
+          "taxon_href_id": 125475,
+          "animal_name": "Aetideus giesbrechti"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125476&epi=193",
+          "taxon_href_id": 125476,
+          "animal_name": "Aetideus mexicanus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125477&epi=193",
+          "taxon_href_id": 125477,
+          "animal_name": "Aetideus pacificus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125478&epi=193",
+          "taxon_href_id": 125478,
+          "animal_name": "Aetideus pseudarmatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125479&epi=193",
+          "taxon_href_id": 125479,
+          "animal_name": "Aetideus truncatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125480&epi=193",
+          "taxon_href_id": 125480,
+          "animal_name": "Azygokeras columbiae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125435&epi=193",
+          "taxon_href_id": 125435,
+          "animal_name": "Aetideidae, Familia"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125436&epi=193",
+          "taxon_href_id": 125436,
+          "animal_name": "Aetideopsis, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125437&epi=193",
+          "taxon_href_id": 125437,
+          "animal_name": "Aetideus, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125427&epi=193",
+          "taxon_href_id": 125427,
+          "animal_name": "Animalia, Regnum"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125428&epi=193",
+          "taxon_href_id": 125428,
+          "animal_name": "Arthropoda, Phylum"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125438&epi=193",
+          "taxon_href_id": 125438,
+          "animal_name": "Azygokeras, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125439&epi=193",
+          "taxon_href_id": 125439,
+          "animal_name": "Batheuchaeta, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125440&epi=193",
+          "taxon_href_id": 125440,
+          "animal_name": "Bradyetes, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125441&epi=193",
+          "taxon_href_id": 125441,
+          "animal_name": "Bradyidius, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125434&epi=193",
+          "taxon_href_id": 125434,
+          "animal_name": "Calanoida, Ordo"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125442&epi=193",
+          "taxon_href_id": 125442,
+          "animal_name": "Chiridiella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125443&epi=193",
+          "taxon_href_id": 125443,
+          "animal_name": "Chiridius, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125444&epi=193",
+          "taxon_href_id": 125444,
+          "animal_name": "Chirundina, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125445&epi=193",
+          "taxon_href_id": 125445,
+          "animal_name": "Chirundinella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125446&epi=193",
+          "taxon_href_id": 125446,
+          "animal_name": "Comantenna, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125431&epi=193",
+          "taxon_href_id": 125431,
+          "animal_name": "Copepoda, Subclassis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125447&epi=193",
+          "taxon_href_id": 125447,
+          "animal_name": "Crassantenna, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125429&epi=193",
+          "taxon_href_id": 125429,
+          "animal_name": "Crustacea, Subphylum"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125448&epi=193",
+          "taxon_href_id": 125448,
+          "animal_name": "Euchirella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125449&epi=193",
+          "taxon_href_id": 125449,
+          "animal_name": "Gaetanus, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125433&epi=193",
+          "taxon_href_id": 125433,
+          "animal_name": "Gymnoplea, Superorder"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125450&epi=193",
+          "taxon_href_id": 125450,
+          "animal_name": "Jaschnovia, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125451&epi=193",
+          "taxon_href_id": 125451,
+          "animal_name": "Lutamator, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125430&epi=193",
+          "taxon_href_id": 125430,
+          "animal_name": "Maxillopoda, Classis"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125452&epi=193",
+          "taxon_href_id": 125452,
+          "animal_name": "Mesocomantenna, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125432&epi=193",
+          "taxon_href_id": 125432,
+          "animal_name": "Neocopepoda, Infraclass"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125453&epi=193",
+          "taxon_href_id": 125453,
+          "animal_name": "Paivella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125454&epi=193",
+          "taxon_href_id": 125454,
+          "animal_name": "Paracomantenna, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125455&epi=193",
+          "taxon_href_id": 125455,
+          "animal_name": "Pseudeuchaeta, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125456&epi=193",
+          "taxon_href_id": 125456,
+          "animal_name": "Pseudochirella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125457&epi=193",
+          "taxon_href_id": 125457,
+          "animal_name": "Pterochirella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125458&epi=193",
+          "taxon_href_id": 125458,
+          "animal_name": "Senecella, Genus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125459&epi=193",
+          "taxon_href_id": 125459,
+          "animal_name": "Sursamucro, Genus"
+        }
+      ],
+      "common_names": []
+    }
+  }
+}

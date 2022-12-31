@@ -1,0 +1,246 @@
+{
+  "1": {
+    "id": 0,
+    "project_title": "Aetideidae of the World Ocean",
+    "project_url": "http://aetideidae.linnaeus.naturalis.nl",
+    "content": [
+      {
+        "id": 3422,
+        "title": "Welcome",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16');\"></div>\n<p>This program is a revised edition of the Identification Manual by Elena L. Markhaseva (1996),</p>\n<p><b>Calanoid Copepods of the Family Aetideidae of the World Ocean</b><i>.</i></p>\n<p>[Proceedings of the Zoological Institute, Russian Academy of Sciences, St. Petersburg, volume 268. ISSN 0206-0477]. For the first time a fully illustrated, interactive key is presented to the species of this family. Only those few species were excluded from the Manual and this program which were inadequately described and no material of which was seen by the author.<br/><br/>The calanoid copepods are free-living, planktonic crustaceans, which form an important link in the food chain of the marine environment, forming the food source of economically important fishes like herring, but also of some whales and seals. The 180 known species of the family Aetideidae are predominantly oceanic, occurring in tropical to polar waters and in all vertical ranges of the pelagic zone. Many species belong to the deep-water plankton or inhabit the hyperbenthic environment. Only a few species inhabit brackish or fresh waters.</p>\n</div>"
+      },
+      {
+        "id": 3423,
+        "title": "Contributors",
+        "text": "<div class=\"proze\" id=\"content\">\n<p>The work was performed primarily at the Zoological Institute, Russian Academy of Sciences (St. Petersburg) using the museum's collections, but it proved impossible without access to the collections of other museums and institutes.<br/><br/>I thank my colleagues for their help in obtaining material for study. I am particularly grateful to Academician M.E. Vinogradov (Institute of Oceanology, Moscow) and to Dr. M.V. Heptner (Zoological Museum of the Moscow State University) for placing at my disposal the unique collection of deepwater plankton catches obtained during the cruises of the R/V \"Vitjaz\".<br/><br/>In this work I also used material from the N.M.N.H. (Smithsonian Institute, Washington D.C.), and I am very grateful to Dr. F.D. Ferrari for lending this collection to me.<br/><br/>In the final stages of my investigations the opportunity arose to examine the collection of Aetideidae identified by G.O. Sars, housed in the Zoological Museum of Oslo. Type specimen of Aetideidae (except for <i>Pseudochirella spectabilis</i> Sars, 1900) were not designated but all specimen were originally identified by Sars and are still labeled with Sars's original hand-written labels. This makes it possible to understand how Sars himself comprehended each species. During the work on this collection many questions which had arisen could be resolved. I am very grateful to Prof. M. Christiansen (Zoological Museum, University of Oslo) for giving me the opportunity to work with this collection.<br/><br/>Illustrations were taken from a variety of publications and the author especially wishes to thank Dr. Tai Soo Park and Dr. Janet M. Bradford-Grieve for granting permission to include illustrations from their many fine works. Permission was also granted by the publishers of the following publications: <b>Bolletim Zoologia</b> (Prof. Elizabeth H\u00f6fling, Universidade de S<o b=\"\" brasil=\"\" paulo=\"\">Bulletin of the Museum of Comparative Zoology (Michael Jackson, Harvard University, Cambridge, Massachusetts, U.S.A.); <b>Bulletin of the U.S. National Museum</b> (Dr. Frank Ferrari, National Museum of Natural History, Washington D.C., U.S.A.); <b>Ci\u00eancas Cultural, S<o b=\"\" paulo=\"\"> (Luiz R. Travassos, S<o b=\"\" brasil=\"\" paulo=\"\">Crustaceana</o></o></b> (Koninklijke Brill N.V., Leiden, The Netherlands); <b>Hydrobiologia</b> (Berendina van Straalen, Kluwer Academic Publishers, Dordrecht, The Netherlands); <b>Journal of Zoology, London</b> (April Boffin, Oxford University Press, Oxford, U.K.); <b>Mitteilungen des hamburger zoologisches Museum und Instituts</b> (Dr. Knud Schultz, Universit\u00e4t Hamburg, Hamburg, Germany); <b>Pacific Science</b> (Keith K. Leber, University of Hawaii Press, Honolulu, Hawaii, U.S.A.); <b>Publications of the Seto marine biological Laboratory</b> (Prof. Shin Kubota, Kyoto University, Japan); <b>Sarsia</b> (Ulf B\u00e5mstedt, University of Bergen, Norway); <b>Zoologische Verhandelingen, Leiden</b> (Marc de Hart, Naturalis, N.N.M., Leiden, The Netherlands).<br/><br/>For the electronic version the separate keys of the original publication were updated into a single, fully illustrated key by the author and Henk Visser MSc. of the Expert Center for Taxonomic Identification (ETI). Additional information on higher taxa was compiled by Dr. Julia Kouwenberg and reworked by Huub Veldhuijzen van Zanten. Additional illustrations were made by Sasja van Meel MSc. Digital formatting of the text and illustrations by ing. Taghi Zandvakili.</o></p>\n</div>"
+      },
+      {
+        "id": 2906,
+        "title": "Introduction",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/7_99ac1b7eca57d99/14997_498dc245af05e2b.jpg?v=2016-06-16+12%3A38%3A16');\"></div>\n<p>This program is an electronic version of a recent revision by the author (Markhaseva, 1996) on the calanoid family Aetideidae, and forms a sequel to the book \"Oar-footed crustaceans (Copepoda, Calanoida) of the USSR seas and adjacent waters\" (Brodsky et al., 1983). Latter publication includes a \"General part\" (Brodsky, 1983: 9-138) with data on morphology, classification, geographical distribution and biology of some species of the Calanoida, and a \"Systematic part\" (Brodsky et al., 1983: 139-356) with descriptions of, and identification keys to, calanoid copepods of the families Calanidae up to and including Spinocalanidae.<br/><br/>This program contains an identification section and databases for the 25 genera and 165 species which are included in this revision. At the moment of publication (printed version: Markhaseva, 1996) about 180 species of Aetideidae were described, with most of the omitted species too poorly described to be included in this revision and material not examined by the author.<br/><br/><b>Note:</b> The Genus <i>Senecella</i>  as mostly fresh-water genus is not included into the key. The small key to the two species of <i>Senecella</i>  can be found into the Higher Taxa module under Genus <i>Senecella</i>.</p>\n</div>"
+      },
+      {
+        "id": 2907,
+        "title": "Order calanoida",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/8_41658a2ad20fbe8/14998_24bf94cec2440a4.jpg?v=2016-06-16+12%3A38%3A17');\"></div>\n<p><b>Ecology &amp; Distribution</b>:<br/><br/>Calanoids form an order of the Copepoda; most calanoids are free-living and marine, though some groups are restricted to freshwater. The majority are planktonic, but some live on, or close to, the sea bottom. They are found in all oceans, from the surface to over 5000 m in depth. Many are known to perform diurnal migration, descending to deep water at day and rising to the surface at night. They are the dominant group in the marine zooplankton. Their feeding habits vary with species and with developmental stages of the same species. They may be herbivorous, mixed-mode feeders, predators, or scavengers. Calanoids form a very important link in the food chain of the aquatic environment. They feed on phytoplankton and microzooplankton, and at times attack animals which are much larger than themselves, such as chaetognaths and larval fish. Most calanoids store foods in a fat body or in a midgut oil sac, which often gives the body a red or blue color. They are preyed upon by larger zooplankton and are known to be the major food of larval fish, small pelagic fishes such as herring, and of some whales and seals.</p>\n</div>"
+      },
+      {
+        "id": 2908,
+        "title": "Family aetideidae",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/4/9/9/9_366865fa09886cb/14999_fed9db7e2d5f4bb.jpg?v=2016-06-16+12%3A38%3A17');\"></div>\n<p><b>Ecology &amp; Distribution</b>:<br/><br/>The aetideid species are mostly oceanic inhabitants, occurring in all vertical ranges of the marine pelagic zone, and inhabiting also the hyperbenthic environment. A significant number of species form part of deep-water plankton. Most of the meso- and bathypelagic species are characterized by wide geographical ranges, occurring in tropical to polar waters. A number of aetideid species may also be found in brackish (<i>Jaschnovia</i>  spp.) and fresh (<i>Senecella</i>  spp.) waters.<br/><br/>In order to obtain comprehensive information on geographical distribution of the presented cosmopolitan calanoid family, the present program was based on material from numerous localities in the world's oceans.</p>\n</div>"
+      },
+      {
+        "id": 2909,
+        "title": "Abbreviations",
+        "text": "<div class=\"proze\" id=\"content\">\n<div class=\"introduction-img\" style=\"background: url('https://resourcespace.naturalis.nl/filestore/1/5/0/0/0_20110487849541e/15000_b96260f74f06791.jpg?v=2016-06-16+12%3A38%3A18');\"></div>\n<p>The following abbreviations are used in the descriptions of the species and higher taxa:<br/><br/>Abd 1 (2-5) -  abdomen,<br/>                        first (second-fifth) segments<br/>A1              -   antennule<br/>A2              -   antenna<br/>B                 -   basipodite<br/>C                 -   coxopodite<br/>P                 -   protopodite<br/>Ce               -   head, cephalon<br/>Gn              -   genital segment<br/>Gnb            -   gnathobase <br/>Md             -   mandible<br/>Mx1           -   maxillule<br/>Mx2           -   maxilla<br/>Mxp           -   maxilliped<br/>P.md          -   mandibular palp<br/>P1-P5         -   first-fifth pairs of thoracic<br/>                       (swimming) legs<br/>R                -   rostrum<br/>Re              -   exopodite<br/>Ri               -   endopodite<br/>Th1-Th5   -   thorax, 1-5-thoracic<br/>                       segments</p>\n</div>"
+      }
+    ],
+    "index": {
+      "lower_taxa": [
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125461&epi=193",
+          "taxon_href_id": 125461,
+          "animal_name": "Aetideopsis albatrossae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125462&epi=193",
+          "taxon_href_id": 125462,
+          "animal_name": "Aetideopsis armata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125463&epi=193",
+          "taxon_href_id": 125463,
+          "animal_name": "Aetideopsis carinata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125464&epi=193",
+          "taxon_href_id": 125464,
+          "animal_name": "Aetideopsis cristata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125465&epi=193",
+          "taxon_href_id": 125465,
+          "animal_name": "Aetideopsis minor"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125466&epi=193",
+          "taxon_href_id": 125466,
+          "animal_name": "Aetideopsis multiserrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125467&epi=193",
+          "taxon_href_id": 125467,
+          "animal_name": "Aetideopsis retusa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125468&epi=193",
+          "taxon_href_id": 125468,
+          "animal_name": "Aetideopsis rostrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125469&epi=193",
+          "taxon_href_id": 125469,
+          "animal_name": "Aetideopsis tumorosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125470&epi=193",
+          "taxon_href_id": 125470,
+          "animal_name": "Aetideus acutus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125471&epi=193",
+          "taxon_href_id": 125471,
+          "animal_name": "Aetideus arcuatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125472&epi=193",
+          "taxon_href_id": 125472,
+          "animal_name": "Aetideus armatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125473&epi=193",
+          "taxon_href_id": 125473,
+          "animal_name": "Aetideus bradyi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125474&epi=193",
+          "taxon_href_id": 125474,
+          "animal_name": "Aetideus divergens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125475&epi=193",
+          "taxon_href_id": 125475,
+          "animal_name": "Aetideus giesbrechti"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125476&epi=193",
+          "taxon_href_id": 125476,
+          "animal_name": "Aetideus mexicanus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125477&epi=193",
+          "taxon_href_id": 125477,
+          "animal_name": "Aetideus pacificus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125478&epi=193",
+          "taxon_href_id": 125478,
+          "animal_name": "Aetideus pseudarmatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125479&epi=193",
+          "taxon_href_id": 125479,
+          "animal_name": "Aetideus truncatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125480&epi=193",
+          "taxon_href_id": 125480,
+          "animal_name": "Azygokeras columbiae"
+        }
+      ],
+      "higher_taxa": [
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125461&epi=193",
+          "taxon_href_id": 125461,
+          "animal_name": "Aetideopsis albatrossae"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125462&epi=193",
+          "taxon_href_id": 125462,
+          "animal_name": "Aetideopsis armata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125463&epi=193",
+          "taxon_href_id": 125463,
+          "animal_name": "Aetideopsis carinata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125464&epi=193",
+          "taxon_href_id": 125464,
+          "animal_name": "Aetideopsis cristata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125465&epi=193",
+          "taxon_href_id": 125465,
+          "animal_name": "Aetideopsis minor"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125466&epi=193",
+          "taxon_href_id": 125466,
+          "animal_name": "Aetideopsis multiserrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125467&epi=193",
+          "taxon_href_id": 125467,
+          "animal_name": "Aetideopsis retusa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125468&epi=193",
+          "taxon_href_id": 125468,
+          "animal_name": "Aetideopsis rostrata"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125469&epi=193",
+          "taxon_href_id": 125469,
+          "animal_name": "Aetideopsis tumorosa"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125470&epi=193",
+          "taxon_href_id": 125470,
+          "animal_name": "Aetideus acutus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125471&epi=193",
+          "taxon_href_id": 125471,
+          "animal_name": "Aetideus arcuatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125472&epi=193",
+          "taxon_href_id": 125472,
+          "animal_name": "Aetideus armatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125473&epi=193",
+          "taxon_href_id": 125473,
+          "animal_name": "Aetideus bradyi"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125474&epi=193",
+          "taxon_href_id": 125474,
+          "animal_name": "Aetideus divergens"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125475&epi=193",
+          "taxon_href_id": 125475,
+          "animal_name": "Aetideus giesbrechti"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125476&epi=193",
+          "taxon_href_id": 125476,
+          "animal_name": "Aetideus mexicanus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125477&epi=193",
+          "taxon_href_id": 125477,
+          "animal_name": "Aetideus pacificus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125478&epi=193",
+          "taxon_href_id": 125478,
+          "animal_name": "Aetideus pseudarmatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125479&epi=193",
+          "taxon_href_id": 125479,
+          "animal_name": "Aetideus truncatus"
+        },
+        {
+          "taxon_href": "https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=125480&epi=193",
+          "taxon_href_id": 125480,
+          "animal_name": "Azygokeras columbiae"
+        }
+      ],
+      "common_names": []
+    }
+  }
+}

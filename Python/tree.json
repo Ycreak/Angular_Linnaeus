@@ -1,0 +1,65 @@
+{
+  "tree": [
+    {
+      "name": "Animalia",
+      "taxon": "kingdom",
+      "_id": "125427",
+      "children": [
+        {
+          "name": "Arthropoda",
+          "taxon": "phylum",
+          "_id": "125428",
+          "children" : [
+            {
+              "name": "Crustacea",
+              "taxon": "subphylum",
+              "_id": "125429",
+              "children" : [
+                {
+                  "name": "Maxillopoda",
+                  "taxon": "class",
+                  "_id": "125430",
+                  "children" : [
+                    {
+                      "name": "Copepoda",
+                      "taxon": "subclass",
+                      "_id": "125431",
+                      "children" : [
+                        {
+                          "name": "Neocopepoda",
+                          "taxon": "infraclass",
+                          "_id": "125432",
+                          "children" : [
+                            {
+                              "name": "Gymnoplea",
+                              "taxon": "superorder",
+                              "_id": "125433",
+                              "children": [
+                                {
+                                  "name": "Calanoida",
+                                  "taxon": "order",
+                                  "_id": "125434",
+                                  "children" : [
+                                    {
+                                      "name": "Aetideidae",
+                                      "taxon": "family",
+                                      "_id": "125435"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

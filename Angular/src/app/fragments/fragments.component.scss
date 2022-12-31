@@ -1,0 +1,311 @@
+@use '@angular/material' as mat;
+
+@import url('../app.component.scss');
+// Fragments component specific CSS. For more generic CSS, see ../app.component.scss.
+
+// @include mat.checkbox-density(1);
+// @include mat.mat-checkbox-label {
+//   color: white;
+// }
+
+
+/* Toolbar/header CSS */
+// Alignment
+// mat-checkbox.btn label span.mat-checkbox-inner-container {
+//   width: 28px;
+// }
+
+// mat-checkbox.btn label span.mat-checkbox-label {
+//   width: fit-content;
+// }
+
+// Hide checkmark
+// mat-checkbox.btn label span span svg {
+//   display: none
+// }
+
+// // Onclick ripple effect
+// button.btn span.mat-ripple {
+//   width: inherit;
+// }
+
+// To show a little hand on <a> elements without href but with click events
+.a-void {
+  cursor: pointer;
+  color: black;
+}
+
+
+/* Fragment and commentary column related CSS */
+
+// Box in which the fragment is shown. Created by the for-loop in Fragment Column.
+.fragment-box {
+  padding: 10px 5px 0px 5px;
+  border-bottom: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  // display: block;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: space-between;
+  // box-sizing: border-box;
+  cursor: move;
+  // background: white;
+  font-size: 14px;
+
+  &:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 10%) inset;
+    cursor: pointer;
+  }
+
+  // Border on left side has color gradient indicating initial fragment order.
+  // Border-left-color property is generated and set elsewhere via types
+  border-left-style: solid;
+  border-left-width: medium;
+  border-left-color: transparent;
+}
+
+/* CDK Drag 'n Drop CSS */
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-overlay-connected-position-bounding-box {
+  z-index: 99999 !important;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.fragment-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+// For the notes in the playground
+.input-form{
+  width: var(--width);
+}
+
+.progress-toolbar-playground{ //TODO: this could use some inheritance
+  height: 1vh !important;
+  background: white;
+}
+
+/* Playground related CSS */
+
+.note {
+  // width: auto;
+  // height: auto;
+  border: solid 1px rgb(0, 0, 0);
+  padding: .5em;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: move;
+  display: inline-block;
+  justify-content: center;
+  // align-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  position: absolute;
+  // z-index: 2;
+  transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+              0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.note:active {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+              0 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.playground {
+  // border: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: move;
+  display: inline-block;
+  justify-content: center;
+  // align-items: center;
+  text-align: center;
+  // background: #fff;
+  border-radius: 4px;
+  position: absolute; // Absolute causes all items to be on top of eachother
+  // z-index: 1;
+  // transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+  // box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  //             0 2px 2px 0 rgba(0, 0, 0, 0.14),
+  //             0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.playground:active {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+              0 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.zlayer{
+  z-index: var(--layer);
+}
+
+.playground-height-padding{
+  min-height: 150ch;
+}
+
+/* Navbar CSS */
+// .mat-checkbox-layout {
+//   margin-bottom: 0;
+// }
+
+// .mat-checkbox-label {
+//   width: fit-content;
+// }
+
+// Text component
+::ng-deep .mat-line{
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+}
+
+::ng-deep  .mat-mdc-list .mat-mdc-list-item{
+  height:initial!important;
+}
+
+.neat-lines .mat-mdc-list-item {
+  height: auto;
+  width: 100%;
+}
+
+.selection-form {
+  min-width: 100%;
+  max-width: 100%;
+  /* width: 100%; */
+}
+
+.column-toolbar {
+  max-height: 30px;
+  // min-height: 30px;
+  background: #9FA8DA;
+  color: white;
+
+  // display : inline-block;
+  // // align-items : center;
+
+  // vertical-align: top !important;
+
+  // align-items: center;
+
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+::ng-deep .mat-selection-list .mat-list-option .mat-line{
+  word-wrap: break-word;
+ white-space: pre-wrap;
+}
+
+table {
+  width: 100%;
+}
+
+tr.example-detail-row {
+  height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}
+
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.example-element-diagram {
+  min-width: 80px;
+  border: 2px solid black;
+  padding: 8px;
+  font-weight: lighter;
+  margin: 8px 0;
+  height: 104px;
+}
+
+.example-element-symbol {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.example-element-description {
+  padding: 16px;
+}
+
+.example-element-description-attribution {
+  opacity: 0.5;
+}
+
+.example-tree-invisible {
+  display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+/*
+ * This padding sets alignment of the nested nodes.
+ */
+.example-tree .mat-nested-tree-node div[role=group] {
+  padding-left: 10px;
+}
+
+/*
+ * Padding for leaf nodes.
+ * Leaf nodes need to have padding so as to align with other non-leaf nodes
+ * under the same parent.
+ */
+.example-tree div[role=group] > .mat-tree-node {
+  padding-left: 10px;
+}
+
+.txtColor:hover{
+  color: green;
+  cursor: pointer;
+}
+
+.background-highlight{
+  color: red;
+}

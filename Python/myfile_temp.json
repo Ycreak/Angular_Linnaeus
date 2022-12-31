@@ -1,0 +1,1132 @@
+{
+  "1": {
+    "_id": "",
+    "title": "Aetideidae of the World Ocean",
+    "url": "http://aetideidae.linnaeus.naturalis.nl",
+    "introduction": [],
+    "index": [],
+    "higher_taxa": [],
+    "species": [],
+    "single_access_key": [],
+    "multi_access_key": [],
+    "glossary": [],
+    "literature": [],
+    "host": [],
+    "matrix_key_guide": [],
+    "morphology": [],
+    "advanced_search": [],
+    "habitat": [],
+    "tree": [
+      [
+        "Aetideopsis albatrossae",
+        []
+      ],
+      [
+        "Aetideopsis armata",
+        []
+      ],
+      [
+        "Aetideopsis carinata",
+        []
+      ],
+      [
+        "Aetideopsis cristata",
+        []
+      ],
+      [
+        "Aetideopsis minor",
+        []
+      ],
+      [
+        "Aetideopsis multiserrata",
+        []
+      ],
+      [
+        "Aetideopsis retusa",
+        []
+      ],
+      [
+        "Aetideopsis rostrata",
+        []
+      ],
+      [
+        "Aetideopsis tumorosa",
+        []
+      ],
+      [
+        "Aetideus acutus",
+        []
+      ],
+      [
+        "Aetideus arcuatus",
+        []
+      ],
+      [
+        "Aetideus armatus",
+        []
+      ],
+      [
+        "Aetideus bradyi",
+        []
+      ],
+      [
+        "Aetideus divergens",
+        []
+      ],
+      [
+        "Aetideus giesbrechti",
+        []
+      ],
+      [
+        "Aetideus mexicanus",
+        []
+      ],
+      [
+        "Aetideus pacificus",
+        []
+      ],
+      [
+        "Aetideus pseudarmatus",
+        []
+      ],
+      [
+        "Aetideus truncatus",
+        []
+      ],
+      [
+        "Azygokeras columbiae",
+        []
+      ],
+      [
+        "Batheuchaeta anomala",
+        []
+      ],
+      [
+        "Batheuchaeta antarctica",
+        []
+      ],
+      [
+        "Batheuchaeta gurjanovae",
+        []
+      ],
+      [
+        "Batheuchaeta heptneri",
+        []
+      ],
+      [
+        "Batheuchaeta lamellata",
+        []
+      ],
+      [
+        "Batheuchaeta peculiaris",
+        []
+      ],
+      [
+        "Batheuchaeta pubescens",
+        []
+      ],
+      [
+        "Batheuchaeta tuberculata",
+        []
+      ],
+      [
+        "Bradyetes inermis",
+        []
+      ],
+      [
+        "Bradyetes matthei",
+        []
+      ],
+      [
+        "Bradyidius angustus",
+        []
+      ],
+      [
+        "Bradyidius armatus",
+        []
+      ],
+      [
+        "Bradyidius arnoldi",
+        []
+      ],
+      [
+        "Bradyidius curtus",
+        []
+      ],
+      [
+        "Bradyidius luluae",
+        []
+      ],
+      [
+        "Bradyidius pacificus",
+        []
+      ],
+      [
+        "Bradyidius rakuma",
+        []
+      ],
+      [
+        "Bradyidius saanichi",
+        []
+      ],
+      [
+        "Bradyidius similis",
+        []
+      ],
+      [
+        "Bradyidius subarmatus",
+        []
+      ],
+      [
+        "Chiridiella abyssalis",
+        []
+      ],
+      [
+        "Chiridiella bichela",
+        []
+      ],
+      [
+        "Chiridiella bispinosa",
+        []
+      ],
+      [
+        "Chiridiella brachydactyla",
+        []
+      ],
+      [
+        "Chiridiella brooksi",
+        []
+      ],
+      [
+        "Chiridiella chainae",
+        []
+      ],
+      [
+        "Chiridiella gibba",
+        []
+      ],
+      [
+        "Chiridiella kuniae",
+        []
+      ],
+      [
+        "Chiridiella macrodactyla",
+        []
+      ],
+      [
+        "Chiridiella ovata",
+        []
+      ],
+      [
+        "Chiridiella pacifica",
+        []
+      ],
+      [
+        "Chiridiella reductella",
+        []
+      ],
+      [
+        "Chiridiella sarsi",
+        []
+      ],
+      [
+        "Chiridiella smoki",
+        []
+      ],
+      [
+        "Chiridiella subaequalis",
+        []
+      ],
+      [
+        "Chiridius gracilis",
+        []
+      ],
+      [
+        "Chiridius longispinus",
+        []
+      ],
+      [
+        "Chiridius molestus",
+        []
+      ],
+      [
+        "Chiridius obtusifrons",
+        []
+      ],
+      [
+        "Chiridius pacificus",
+        []
+      ],
+      [
+        "Chiridius polaris",
+        []
+      ],
+      [
+        "Chiridius poppei",
+        []
+      ],
+      [
+        "Chirundina alaskaensis",
+        []
+      ],
+      [
+        "Chirundina indica",
+        []
+      ],
+      [
+        "Chirundina streetsii",
+        []
+      ],
+      [
+        "Chirundinella magna",
+        []
+      ],
+      [
+        "Comantenna brevicornis",
+        []
+      ],
+      [
+        "Comantenna crassa",
+        []
+      ],
+      [
+        "Comantenna curtisetosa",
+        []
+      ],
+      [
+        "Comantenna recurvata",
+        []
+      ],
+      [
+        "Crassantenna comosa",
+        []
+      ],
+      [
+        "Crassantenna mimorostrata",
+        []
+      ],
+      [
+        "Euchirella amoena",
+        []
+      ],
+      [
+        "Euchirella bella",
+        []
+      ],
+      [
+        "Euchirella bitumida",
+        []
+      ],
+      [
+        "Euchirella curticauda",
+        []
+      ],
+      [
+        "Euchirella formosa",
+        []
+      ],
+      [
+        "Euchirella galeata",
+        []
+      ],
+      [
+        "Euchirella grandicornis",
+        []
+      ],
+      [
+        "Euchirella maxima",
+        []
+      ],
+      [
+        "Euchirella messinensis",
+        [
+          "Euchirella messinensis indica",
+          "Euchirella messinensis messinensis"
+        ]
+      ],
+      [
+        "Euchirella messinensis  indica",
+        []
+      ],
+      [
+        "Euchirella messinensis  messinensis",
+        []
+      ],
+      [
+        "Euchirella pseudopulchra",
+        []
+      ],
+      [
+        "Euchirella pseudotruncata",
+        []
+      ],
+      [
+        "Euchirella pulchra",
+        []
+      ],
+      [
+        "Euchirella rostrata",
+        []
+      ],
+      [
+        "Euchirella similis",
+        []
+      ],
+      [
+        "Euchirella speciosa",
+        []
+      ],
+      [
+        "Euchirella splendens",
+        []
+      ],
+      [
+        "Euchirella truncata",
+        []
+      ],
+      [
+        "Euchirella unispina",
+        []
+      ],
+      [
+        "Euchirella venusta",
+        []
+      ],
+      [
+        "Gaetanus antarcticus",
+        []
+      ],
+      [
+        "Gaetanus armiger",
+        []
+      ],
+      [
+        "Gaetanus brachyurus",
+        []
+      ],
+      [
+        "Gaetanus brevicaudatus",
+        []
+      ],
+      [
+        "Gaetanus brevicornis",
+        []
+      ],
+      [
+        "Gaetanus brevirostris",
+        []
+      ],
+      [
+        "Gaetanus brevispinus",
+        []
+      ],
+      [
+        "Gaetanus curvicornis",
+        []
+      ],
+      [
+        "Gaetanus inermis",
+        []
+      ],
+      [
+        "Gaetanus kruppii",
+        []
+      ],
+      [
+        "Gaetanus latifrons",
+        []
+      ],
+      [
+        "Gaetanus miles",
+        []
+      ],
+      [
+        "Gaetanus minispinus",
+        []
+      ],
+      [
+        "Gaetanus minor",
+        []
+      ],
+      [
+        "Gaetanus minutus",
+        []
+      ],
+      [
+        "Gaetanus paracurvicornis",
+        []
+      ],
+      [
+        "Gaetanus pileatus",
+        []
+      ],
+      [
+        "Gaetanus pseudolatifrons",
+        []
+      ],
+      [
+        "Gaetanus pungens",
+        []
+      ],
+      [
+        "Gaetanus robustus",
+        []
+      ],
+      [
+        "Gaetanus rubellus",
+        []
+      ],
+      [
+        "Gaetanus secundus",
+        []
+      ],
+      [
+        "Gaetanus simplex",
+        []
+      ],
+      [
+        "Gaetanus tenuispinus",
+        []
+      ],
+      [
+        "Jaschnovia brevis",
+        []
+      ],
+      [
+        "Jaschnovia tolli",
+        []
+      ],
+      [
+        "Lutamator elegans",
+        []
+      ],
+      [
+        "Lutamator hurlei",
+        []
+      ],
+      [
+        "Mesocomantenna spinosa",
+        []
+      ],
+      [
+        "Paivella inaciae",
+        []
+      ],
+      [
+        "Paivella naporai",
+        []
+      ],
+      [
+        "Paracomantenna gracilis",
+        []
+      ],
+      [
+        "Paracomantenna magalyae",
+        []
+      ],
+      [
+        "Paracomantenna minor",
+        []
+      ],
+      [
+        "Pseudeuchaeta arctica",
+        []
+      ],
+      [
+        "Pseudeuchaeta brevicauda",
+        []
+      ],
+      [
+        "Pseudeuchaeta flexuosa",
+        []
+      ],
+      [
+        "Pseudeuchaeta magna",
+        []
+      ],
+      [
+        "Pseudeuchaeta major",
+        []
+      ],
+      [
+        "Pseudeuchaeta spinata",
+        []
+      ],
+      [
+        "Pseudochirella accepta",
+        []
+      ],
+      [
+        "Pseudochirella batillipa",
+        []
+      ],
+      [
+        "Pseudochirella bilobata",
+        []
+      ],
+      [
+        "Pseudochirella bowmani",
+        []
+      ],
+      [
+        "Pseudochirella dentata",
+        []
+      ],
+      [
+        "Pseudochirella divaricata",
+        []
+      ],
+      [
+        "Pseudochirella dubia",
+        []
+      ],
+      [
+        "Pseudochirella fallax",
+        []
+      ],
+      [
+        "Pseudochirella formosa",
+        []
+      ],
+      [
+        "Pseudochirella gibbera",
+        []
+      ],
+      [
+        "Pseudochirella hirsuta",
+        []
+      ],
+      [
+        "Pseudochirella limata",
+        []
+      ],
+      [
+        "Pseudochirella lobata",
+        []
+      ],
+      [
+        "Pseudochirella mariana",
+        []
+      ],
+      [
+        "Pseudochirella mawsoni",
+        []
+      ],
+      [
+        "Pseudochirella notacantha",
+        []
+      ],
+      [
+        "Pseudochirella obesa",
+        []
+      ],
+      [
+        "Pseudochirella obtusa",
+        []
+      ],
+      [
+        "Pseudochirella pacifica",
+        []
+      ],
+      [
+        "Pseudochirella palliata",
+        []
+      ],
+      [
+        "Pseudochirella pustulifera",
+        []
+      ],
+      [
+        "Pseudochirella scopularis",
+        []
+      ],
+      [
+        "Pseudochirella spectabilis",
+        []
+      ],
+      [
+        "Pseudochirella spinosa",
+        []
+      ],
+      [
+        "Pseudochirella tanakai",
+        []
+      ],
+      [
+        "Pseudochirella vervoorti",
+        []
+      ],
+      [
+        "Pterochirella tuerkayi",
+        []
+      ],
+      [
+        "Senecella calanoides",
+        []
+      ],
+      [
+        "Senecella siberica",
+        []
+      ],
+      [
+        "Sursamucro spinatus",
+        []
+      ],
+      [
+        "Undeuchaeta incisa",
+        []
+      ],
+      [
+        "Undeuchaeta intermedia",
+        []
+      ],
+      [
+        "Undeuchaeta major",
+        []
+      ],
+      [
+        "Undeuchaeta plumosa",
+        []
+      ],
+      [
+        "Aetideopsis albatrossae",
+        []
+      ],
+      [
+        "Aetideopsis armata",
+        []
+      ],
+      [
+        "Aetideopsis carinata",
+        []
+      ],
+      [
+        "Aetideopsis cristata",
+        []
+      ],
+      [
+        "Aetideopsis minor",
+        []
+      ],
+      [
+        "Aetideopsis multiserrata",
+        []
+      ],
+      [
+        "Aetideopsis retusa",
+        []
+      ],
+      [
+        "Aetideopsis rostrata",
+        []
+      ],
+      [
+        "Aetideopsis tumorosa",
+        []
+      ],
+      [
+        "Aetideus acutus",
+        []
+      ],
+      [
+        "Aetideus arcuatus",
+        []
+      ],
+      [
+        "Aetideus armatus",
+        []
+      ],
+      [
+        "Aetideus bradyi",
+        []
+      ],
+      [
+        "Aetideus divergens",
+        []
+      ],
+      [
+        "Aetideus giesbrechti",
+        []
+      ],
+      [
+        "Aetideus mexicanus",
+        []
+      ],
+      [
+        "Aetideus pacificus",
+        []
+      ],
+      [
+        "Aetideus pseudarmatus",
+        []
+      ],
+      [
+        "Aetideus truncatus",
+        []
+      ],
+      [
+        "Azygokeras columbiae",
+        []
+      ],
+      [
+        "Aetideidae",
+        [
+          "Aetideopsis",
+          "Aetideus",
+          "Azygokeras",
+          "Batheuchaeta",
+          "Bradyetes",
+          "Bradyidius",
+          "Chiridiella",
+          "Chiridius",
+          "Chirundina",
+          "Chirundinella",
+          "Comantenna",
+          "Crassantenna",
+          "Euchirella",
+          "Gaetanus",
+          "Jaschnovia",
+          "Lutamator",
+          "Mesocomantenna",
+          "Paivella",
+          "Paracomantenna",
+          "Pseudeuchaeta",
+          "Pseudochirella",
+          "Pterochirella",
+          "Senecella",
+          "Sursamucro",
+          "Undeuchaeta"
+        ]
+      ],
+      [
+        "Aetideopsis",
+        [
+          "Aetideopsis albatrossae",
+          "Aetideopsis armata",
+          "Aetideopsis carinata",
+          "Aetideopsis cristata",
+          "Aetideopsis minor",
+          "Aetideopsis multiserrata",
+          "Aetideopsis retusa",
+          "Aetideopsis rostrata",
+          "Aetideopsis tumorosa"
+        ]
+      ],
+      [
+        "Aetideus",
+        [
+          "Aetideus acutus",
+          "Aetideus arcuatus",
+          "Aetideus armatus",
+          "Aetideus bradyi",
+          "Aetideus divergens",
+          "Aetideus giesbrechti",
+          "Aetideus mexicanus",
+          "Aetideus pacificus",
+          "Aetideus pseudarmatus",
+          "Aetideus truncatus"
+        ]
+      ],
+      [
+        "Animalia",
+        [
+          "Arthropoda"
+        ]
+      ],
+      [
+        "Arthropoda",
+        [
+          "Crustacea"
+        ]
+      ],
+      [
+        "Azygokeras",
+        [
+          "Azygokeras columbiae"
+        ]
+      ],
+      [
+        "Batheuchaeta",
+        [
+          "Batheuchaeta anomala",
+          "Batheuchaeta antarctica",
+          "Batheuchaeta gurjanovae",
+          "Batheuchaeta heptneri",
+          "Batheuchaeta lamellata",
+          "Batheuchaeta peculiaris",
+          "Batheuchaeta pubescens",
+          "Batheuchaeta tuberculata"
+        ]
+      ],
+      [
+        "Bradyetes",
+        [
+          "Bradyetes inermis",
+          "Bradyetes matthei"
+        ]
+      ],
+      [
+        "Bradyidius",
+        [
+          "Bradyidius angustus",
+          "Bradyidius armatus",
+          "Bradyidius arnoldi",
+          "Bradyidius curtus",
+          "Bradyidius luluae",
+          "Bradyidius pacificus",
+          "Bradyidius rakuma",
+          "Bradyidius saanichi",
+          "Bradyidius similis",
+          "Bradyidius subarmatus"
+        ]
+      ],
+      [
+        "Calanoida",
+        [
+          "Aetideidae"
+        ]
+      ],
+      [
+        "Chiridiella",
+        [
+          "Chiridiella abyssalis",
+          "Chiridiella bichela",
+          "Chiridiella bispinosa",
+          "Chiridiella brachydactyla",
+          "Chiridiella brooksi",
+          "Chiridiella chainae",
+          "Chiridiella gibba",
+          "Chiridiella kuniae",
+          "Chiridiella macrodactyla",
+          "Chiridiella ovata",
+          "Chiridiella pacifica",
+          "Chiridiella reductella",
+          "Chiridiella sarsi",
+          "Chiridiella smoki",
+          "Chiridiella subaequalis"
+        ]
+      ],
+      [
+        "Chiridius",
+        [
+          "Chiridius gracilis",
+          "Chiridius longispinus",
+          "Chiridius molestus",
+          "Chiridius obtusifrons",
+          "Chiridius pacificus",
+          "Chiridius polaris",
+          "Chiridius poppei"
+        ]
+      ],
+      [
+        "Chirundina",
+        [
+          "Chirundina alaskaensis",
+          "Chirundina indica",
+          "Chirundina streetsii"
+        ]
+      ],
+      [
+        "Chirundinella",
+        [
+          "Chirundinella magna"
+        ]
+      ],
+      [
+        "Comantenna",
+        [
+          "Comantenna brevicornis",
+          "Comantenna crassa",
+          "Comantenna curtisetosa",
+          "Comantenna recurvata"
+        ]
+      ],
+      [
+        "Copepoda",
+        [
+          "Neocopepoda"
+        ]
+      ],
+      [
+        "Crassantenna",
+        [
+          "Crassantenna comosa",
+          "Crassantenna mimorostrata"
+        ]
+      ],
+      [
+        "Crustacea",
+        [
+          "Maxillopoda"
+        ]
+      ],
+      [
+        "Euchirella",
+        [
+          "Euchirella amoena",
+          "Euchirella bella",
+          "Euchirella bitumida",
+          "Euchirella curticauda",
+          "Euchirella formosa",
+          "Euchirella galeata",
+          "Euchirella grandicornis",
+          "Euchirella maxima",
+          "Euchirella messinensis",
+          "Euchirella pseudopulchra",
+          "Euchirella pseudotruncata",
+          "Euchirella pulchra",
+          "Euchirella rostrata",
+          "Euchirella similis",
+          "Euchirella speciosa",
+          "Euchirella splendens",
+          "Euchirella truncata",
+          "Euchirella unispina",
+          "Euchirella venusta"
+        ]
+      ],
+      [
+        "Gaetanus",
+        [
+          "Gaetanus antarcticus",
+          "Gaetanus armiger",
+          "Gaetanus brachyurus",
+          "Gaetanus brevicaudatus",
+          "Gaetanus brevicornis",
+          "Gaetanus brevirostris",
+          "Gaetanus brevispinus",
+          "Gaetanus curvicornis",
+          "Gaetanus inermis",
+          "Gaetanus kruppii",
+          "Gaetanus latifrons",
+          "Gaetanus miles",
+          "Gaetanus minispinus",
+          "Gaetanus minor",
+          "Gaetanus minutus",
+          "Gaetanus paracurvicornis",
+          "Gaetanus pileatus",
+          "Gaetanus pseudolatifrons",
+          "Gaetanus pungens",
+          "Gaetanus robustus",
+          "Gaetanus rubellus",
+          "Gaetanus secundus",
+          "Gaetanus simplex",
+          "Gaetanus tenuispinus"
+        ]
+      ],
+      [
+        "Gymnoplea",
+        [
+          "Calanoida"
+        ]
+      ],
+      [
+        "Jaschnovia",
+        [
+          "Jaschnovia brevis",
+          "Jaschnovia tolli"
+        ]
+      ],
+      [
+        "Lutamator",
+        [
+          "Lutamator elegans",
+          "Lutamator hurlei"
+        ]
+      ],
+      [
+        "Maxillopoda",
+        [
+          "Copepoda"
+        ]
+      ],
+      [
+        "Mesocomantenna",
+        [
+          "Mesocomantenna spinosa"
+        ]
+      ],
+      [
+        "Neocopepoda",
+        [
+          "Gymnoplea"
+        ]
+      ],
+      [
+        "Paivella",
+        [
+          "Paivella inaciae",
+          "Paivella naporai"
+        ]
+      ],
+      [
+        "Paracomantenna",
+        [
+          "Paracomantenna gracilis",
+          "Paracomantenna magalyae",
+          "Paracomantenna minor"
+        ]
+      ],
+      [
+        "Pseudeuchaeta",
+        [
+          "Pseudeuchaeta arctica",
+          "Pseudeuchaeta brevicauda",
+          "Pseudeuchaeta flexuosa",
+          "Pseudeuchaeta magna",
+          "Pseudeuchaeta major",
+          "Pseudeuchaeta spinata"
+        ]
+      ],
+      [
+        "Pseudochirella",
+        [
+          "Pseudochirella accepta",
+          "Pseudochirella batillipa",
+          "Pseudochirella bilobata",
+          "Pseudochirella bowmani",
+          "Pseudochirella dentata",
+          "Pseudochirella divaricata",
+          "Pseudochirella dubia",
+          "Pseudochirella fallax",
+          "Pseudochirella formosa",
+          "Pseudochirella gibbera",
+          "Pseudochirella hirsuta",
+          "Pseudochirella limata",
+          "Pseudochirella lobata",
+          "Pseudochirella mariana",
+          "Pseudochirella mawsoni",
+          "Pseudochirella notacantha",
+          "Pseudochirella obesa",
+          "Pseudochirella obtusa",
+          "Pseudochirella pacifica",
+          "Pseudochirella palliata",
+          "Pseudochirella pustulifera",
+          "Pseudochirella scopularis",
+          "Pseudochirella spectabilis",
+          "Pseudochirella spinosa",
+          "Pseudochirella tanakai",
+          "Pseudochirella vervoorti"
+        ]
+      ],
+      [
+        "Pterochirella",
+        [
+          "Pterochirella tuerkayi"
+        ]
+      ],
+      [
+        "Senecella",
+        [
+          "Senecella calanoides",
+          "Senecella siberica"
+        ]
+      ],
+      [
+        "Sursamucro",
+        [
+          "Sursamucro spinatus"
+        ]
+      ]
+    ]
+  }
+}
