@@ -4,6 +4,8 @@ import copy
 import json
 import requests
 import unicodedata
+import csv
+import pandas as pd
 # Library imports
 from bs4 import BeautifulSoup
 
@@ -17,6 +19,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from models.database import sandbox
 
 import utilities as util
+from url_list import url_list
 
 LINNAEUS_URL = 'https://birds-europe.linnaeus.naturalis.nl/linnaeus_ng/app/views/introduction/topic.php'
 
@@ -130,66 +133,7 @@ def add_introduction_to_database(project_url):
     
     return new_database_entry
 
-def retrieve_animals_from_index(url, category):
-    source_page = get_selenium_page_content(url, (By.CLASS_NAME, "index-entry"))
-    # first, find all the urls for the lower taxa pages
-    letter_urls = source_page.find_all("a", {"class": "alphabet-letter"})
-    urls = []
-    for lower_taxa_letter_url in letter_urls:
-        urls.append(lower_taxa_letter_url.attrs['href'])
-    # we also want a link for the letter A...
-    if len(urls) > 0: # check if the taxa category exists
-        a_string = urls[0].split('?')[0] + '?&&letter=a'
-        urls.insert(0, a_string)
 
-
-    # now retrieve for all the urls all the animals and their taxon links
-    animal_list = []   
-    for letter_url in urls:
-        # we cant wait for an element, because of the Linneaus programming, so we just wait for n seconds for the page to load
-        DRIVER.implicitly_wait(3) # seconds
-        DRIVER.get(letter_url)
-        soup = BeautifulSoup(DRIVER.page_source, 'lxml')    
-        # now retrieve every animal     
-        for animal in soup.find_all("a", {"class": "index-entry"}):
-            taxon_href = animal.attrs['href']
-            name = animal.text
-            try :
-                marker1 = 'id='
-                marker2 = '&'
-                regex_pattern = marker1 + '(.+?)' + marker2
-                href_id = re.search(regex_pattern, taxon_href).group(1)
-            except AttributeError:
-                # Attribute error is expected if string 
-                # is not found between given markers
-                pass
-
-            print(name)
-            animal_list.append({
-                'taxon_href_id' : int(href_id),
-                'taxon_href' : str(taxon_href),
-                'animal_name' : str(name),
-                'category' : category
-            })
-        print('\n')
-    return animal_list
-
-def add_index_to_database(project_url):
-
-    new_database_entry : list = []
-
-    # https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/index/index.php?type=higher
-
-    lower_taxa_url =  project_url + '/linnaeus_ng/app/views/index/index.php'
-    higher_taxa_url = project_url + '/linnaeus_ng/app/views/index/index.php?type=higher'
-    common_names_url = project_url + '/linnaeus_ng/app/views/index/index.php?type=common'
-
-    new_database_entry += retrieve_animals_from_index(lower_taxa_url, 'lower_taxa')
-    new_database_entry += retrieve_animals_from_index(higher_taxa_url, 'higher_taxa')
-    new_database_entry += retrieve_animals_from_index(common_names_url, 'common_names')
-
-    # exit(0)
-    return new_database_entry
 
 def add_glossary_to_database(url):
     
@@ -242,7 +186,47 @@ def add_glossary_to_database(url):
 
     return glossary_list
 
-def add_species_data_to_database():
+def find_all_taxa_urls(project_url):
+
+    taxa_urls : list = []
+
+    lower_taxa_url =  project_url + '/linnaeus_ng/app/views/index/index.php'
+    higher_taxa_url = project_url + '/linnaeus_ng/app/views/index/index.php?type=higher'
+
+    taxa_urls += retrieve_animals_from_index(lower_taxa_url)
+    taxa_urls += retrieve_animals_from_index(higher_taxa_url)
+
+    # exit(0)
+    return taxa_urls
+
+def retrieve_animals_from_index(url):
+    source_page = get_selenium_page_content(url, (By.CLASS_NAME, "index-entry"))
+    # first, find all the urls for the lower taxa pages
+    letter_urls = source_page.find_all("a", {"class": "alphabet-letter"})
+    urls = []
+    for lower_taxa_letter_url in letter_urls:
+        urls.append(lower_taxa_letter_url.attrs['href'])
+    # we also want a link for the letter A...
+    if len(urls) > 0: # check if the taxa category exists
+        a_string = urls[0].split('?')[0] + '?&&letter=a'
+        urls.insert(0, a_string)
+
+    # now retrieve for all the urls all the animals and their taxon links
+    animal_list = []   
+    for letter_url in urls:
+        # we cant wait for an element, because of the Linneaus programming, so we just wait for n seconds for the page to load
+        DRIVER.implicitly_wait(3) # seconds
+        DRIVER.get(letter_url)
+        soup = BeautifulSoup(DRIVER.page_source, 'lxml')    
+        # now retrieve every animal     
+        for animal in soup.find_all("a", {"class": "index-entry"}):
+            print(animal.text)
+            taxon_href = animal.attrs['href']
+            animal_list.append(str(taxon_href))
+        print('\n')
+    return animal_list    
+
+def add_species_data_to_database(project_url):
    
     species_tabs = [
         "&cat=TAB_DESCRIPTION",
@@ -253,26 +237,30 @@ def add_species_data_to_database():
         # "&cat=CTAB_MEDIA"
     ]
 
-    f = open('myfile5.json')
-    database = json.load(f)
-    
-    database = database['1']
-    
+    url_list = find_all_taxa_urls(project_url)
+
+    # data = pd.read_csv("species.csv")
+    # url_list = data['link'].tolist()  
     animals_list = []
 
-    for index_entry in database['index']:
+    # for index_entry in database['index']:
 
+    #     index_entry_url = index_entry['taxon_href']
+
+    for index_entry_url in url_list:
         new_animal_entry = {}
-        index_entry_url = index_entry['taxon_href']
+
+        print(index_entry_url)
 
         # First, get the classification information
         classification_url = index_entry_url + '&cat=CTAB_CLASSIFICATION'
-
         # classification_url = 'https://aetideidae.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?id=125441&cat=CTAB_CLASSIFICATION&epi=193'
 
-        source_page = get_selenium_page_content(classification_url, (By.ID, "content"))
+        DRIVER.implicitly_wait(3) # seconds
+        DRIVER.get(classification_url)
+        source_page = BeautifulSoup(DRIVER.page_source, 'lxml')  
+
         item_content = source_page.find("div", {"id": "content"})
-        # print(item_content)
 
         # Find the children       
         children_html = item_content.find('p', attrs = {'style':'margin-top: 25px;'})        
@@ -299,17 +287,15 @@ def add_species_data_to_database():
                 _id = find_between_delimiters('id=', '&', parent.attrs['href'])
                 parent_name = parent.text
                 parent_list.append({'name': parent_name, 'taxon': taxon, '_id':_id})
+            item_itself = parent_list.pop()
         # print(parent_list)
 
-        item_itself = parent_list.pop()
 
         new_animal_entry['name'] = item_itself['name']
         new_animal_entry['taxon'] = item_itself['taxon']
         new_animal_entry['_id'] = item_itself['_id']
         new_animal_entry['parents'] = parent_list
         new_animal_entry['children'] = child_list
-
-        # print(index_entry)
 
         # get the description too
         description_url = index_entry_url + "&cat=TAB_DESCRIPTION"
@@ -324,28 +310,6 @@ def add_species_data_to_database():
         # break
 
     return animals_list
-
-def create_tree_from_animals():
-    
-    f = open('myfile6.json')
-    database = json.load(f)
-    
-    database = database['1']
-    
-    tree_list = []
-
-    for animal in database['animals']:
-        children = []
-        for child in animal['children']:
-            children.append(child['name'])
-        
-        tree_list.append([animal['name'], children])
-
-    print(tree_list)
-
-    return tree_list
-
-    exit(0)
 
 ########
 # MAIN #
@@ -371,7 +335,8 @@ content_entry = {
 }
 
 # first, create a list of all projects
-url_list = get_projects_urls()
+# url_list = get_projects_urls()
+# i saved this one to the url_list.py file
 
 # how many projects will we loop over
 counter = 0
@@ -379,33 +344,24 @@ counter = 0
 # init selenium
 DRIVER = init_driver()
 
-# scrape data from each project
-for project_url, project_title in url_list:
-    
-    id_counter +=1
+current_project = url_list[1]
+project_title = current_project[1]
+project_url = current_project[0]
 
-    # create a database entry and start populating
-    new_sandbox = copy.deepcopy(sandbox)
-    # new_sandbox['_id'] = id_counter
-    new_sandbox['title'] = project_title
-    new_sandbox['url'] = project_url
+# create a database entry and start populating
+new_sandbox = copy.deepcopy(sandbox)
+new_sandbox['title'] = project_title
+new_sandbox['url'] = project_url
 
-    # break to cut off program
-    counter += 1
-    if counter > 1:
-        break
-    
-    # new_sandbox['introduction'] = add_introduction_to_database(project_url)
-    # new_sandbox['index'] = add_index_to_database(project_url)
-    # new_sandbox['glossary'] = add_glossary_to_database(project_url)
+new_sandbox['introduction'] = add_introduction_to_database(project_url)
+# new_sandbox['glossary'] = add_glossary_to_database(project_url)
 
-    # new_sandbox['animals'] = add_species_data_to_database()
-    new_sandbox['tree'] = create_tree_from_animals()
-    # exit(0)
+new_sandbox['animals'] = add_species_data_to_database(project_url)
+# new_sandbox['tree'] = create_tree_from_animals()
+# exit(0)
 
-    # add the sandbox to the database
-    database[id_counter] = new_sandbox
-    pass
+# add the sandbox to the database
+database[2] = new_sandbox
 
 DRIVER.quit()
 

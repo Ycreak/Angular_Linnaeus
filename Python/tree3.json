@@ -1,0 +1,311 @@
+[
+  {
+    "name": "Diptera",
+    "taxon": "order",
+    "_id": "56969",
+    "children": [
+      {},
+      {
+        "name": "Agromyzinae",
+        "taxon": "subfamily",
+        "_id": "56971",
+        "children": [
+          {
+            "name": "Agromyza",
+            "taxon": "genus",
+            "_id": "56972",
+            "children": [
+              {
+                "name": "Agromyza apfelbecki",
+                "taxon": "species",
+                "_id": "56998"
+              },
+              {
+                "name": "Agromyza albipennis",
+                "taxon": "species",
+                "_id": "56996"
+              },
+              {
+                "name": "Agromyza ambigua",
+                "taxon": "species",
+                "_id": "56997"
+              },
+              {
+                "name": "Agromyza apfelbecki",
+                "taxon": "species",
+                "_id": "56998"
+              },
+              {
+                "name": "Agromyza apfelbecki",
+                "taxon": "species",
+                "_id": "56998"
+              },
+              {
+                "name": "Agromyza cinerascens",
+                "taxon": "species",
+                "_id": "56999"
+              },
+              {
+                "name": "Agromyza drepanura",
+                "taxon": "species",
+                "_id": "57000"
+              },
+              {
+                "name": "Agromyza frontella",
+                "taxon": "species",
+                "_id": "57001"
+              },
+              {
+                "name": "Agromyza intermittens",
+                "taxon": "species",
+                "_id": "57002"
+              },
+              {
+                "name": "Agromyza luteitarsis",
+                "taxon": "species",
+                "_id": "57003"
+              },
+              {
+                "name": "Agromyza intermittens",
+                "taxon": "species",
+                "_id": "57002"
+              },
+              {
+                "name": "Agromyza megalopsis",
+                "taxon": "species",
+                "_id": "57004"
+              },
+              {
+                "name": "Agromyza nana",
+                "taxon": "species",
+                "_id": "57005"
+              },
+              {
+                "name": "Agromyza nigrella",
+                "taxon": "species",
+                "_id": "57006"
+              },
+              {
+                "name": "Agromyza megalopsis",
+                "taxon": "species",
+                "_id": "57004"
+              },
+              {
+                "name": "Agromyza rondensis",
+                "taxon": "species",
+                "_id": "57010"
+              },
+              {
+                "name": "Agromyza nigrociliata",
+                "taxon": "species",
+                "_id": "57007"
+              },
+              {
+                "name": "Agromyza ambigua",
+                "taxon": "species",
+                "_id": "56997"
+              },
+              {
+                "name": "Agromyza oryzae",
+                "taxon": "species",
+                "_id": "57008"
+              },
+              {
+                "name": "Agromyza parvicornis",
+                "taxon": "species",
+                "_id": "57009"
+              },
+              {
+                "name": "Agromyza rondensis",
+                "taxon": "species",
+                "_id": "57010"
+              },
+              {
+                "name": "Agromyza rondensis",
+                "taxon": "species",
+                "_id": "57010"
+              },
+              {
+                "name": "Agromyza yanonis",
+                "taxon": "species",
+                "_id": "57011"
+              },
+              {
+                "name": "Agromyza apfelbecki",
+                "taxon": "species",
+                "_id": "56998"
+              },
+              {
+                "name": "Agromyza albipennis",
+                "taxon": "species",
+                "_id": "56996"
+              },
+              {
+                "name": "Agromyza ambigua",
+                "taxon": "species",
+                "_id": "56997"
+              },
+              {
+                "name": "Agromyza apfelbecki",
+                "taxon": "species",
+                "_id": "56998"
+              },
+              {
+                "name": "Agromyza apfelbecki",
+                "taxon": "species",
+                "_id": "56998"
+              },
+              {
+                "name": "Agromyza cinerascens",
+                "taxon": "species",
+                "_id": "56999"
+              },
+              {
+                "name": "Agromyza drepanura",
+                "taxon": "species",
+                "_id": "57000"
+              },
+              {
+                "name": "Agromyza frontella",
+                "taxon": "species",
+                "_id": "57001"
+              },
+              {
+                "name": "Agromyza intermittens",
+                "taxon": "species",
+                "_id": "57002"
+              },
+              {
+                "name": "Agromyza luteitarsis",
+                "taxon": "species",
+                "_id": "57003"
+              },
+              {
+                "name": "Agromyza intermittens",
+                "taxon": "species",
+                "_id": "57002"
+              },
+              {
+                "name": "Agromyza megalopsis",
+                "taxon": "species",
+                "_id": "57004"
+              },
+              {
+                "name": "Agromyza nana",
+                "taxon": "species",
+                "_id": "57005"
+              },
+              {
+                "name": "Agromyza nigrella",
+                "taxon": "species",
+                "_id": "57006"
+              },
+              {
+                "name": "Agromyza megalopsis",
+                "taxon": "species",
+                "_id": "57004"
+              },
+              {
+                "name": "Agromyza rondensis",
+                "taxon": "species",
+                "_id": "57010"
+              },
+              {
+                "name": "Agromyza nigrociliata",
+                "taxon": "species",
+                "_id": "57007"
+              },
+              {
+                "name": "Agromyza ambigua",
+                "taxon": "species",
+                "_id": "56997"
+              },
+              {
+                "name": "Agromyza oryzae",
+                "taxon": "species",
+                "_id": "57008"
+              },
+              {
+                "name": "Agromyza parvicornis",
+                "taxon": "species",
+                "_id": "57009"
+              },
+              {
+                "name": "Agromyza rondensis",
+                "taxon": "species",
+                "_id": "57010"
+              },
+              {
+                "name": "Agromyza rondensis",
+                "taxon": "species",
+                "_id": "57010"
+              },
+              {
+                "name": "Agromyza yanonis",
+                "taxon": "species",
+                "_id": "57011"
+              }
+            ]
+          },
+          {
+            "name": "Japanagromyza",
+            "taxon": "genus",
+            "_id": "56974",
+            "children": [
+              {
+                "name": "Japanagromyza tristella",
+                "taxon": "species",
+                "_id": "57033"
+              },
+              {
+                "name": "Japanagromyza aequalis",
+                "taxon": "species",
+                "_id": "57029"
+              },
+              {
+                "name": "Japanagromyza desmodivora",
+                "taxon": "species",
+                "_id": "57030"
+              },
+              {
+                "name": "Japanagromyza inaequalis",
+                "taxon": "species",
+                "_id": "57031"
+              },
+              {
+                "name": "Japanagromyza tristella",
+                "taxon": "species",
+                "_id": "57033"
+              },
+              {
+                "name": "Japanagromyza phaseoli",
+                "taxon": "species",
+                "_id": "57032"
+              },
+              {
+                "name": "Japanagromyza phaseoli",
+                "taxon": "species",
+                "_id": "57032"
+              },
+              {
+                "name": "Japanagromyza tristella",
+                "taxon": "species",
+                "_id": "57033"
+              },
+              {
+                "name": "Japanagromyza tristella",
+                "taxon": "species",
+                "_id": "57033"
+              },
+              {
+                "name": "Japanagromyza tristella",
+                "taxon": "species",
+                "_id": "57033"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1259,9 +1259,9 @@ export class FragmentsComponent implements OnInit {
   current_animal_content : any = '';
   showFiller = false;
 
-  index_table_columns: string[] = ['animal_name', 'id', 'category'];
+  index_table_columns: string[] = ['animal_name', 'taxon', '_id',];
   
-  current_tab = 2
+  current_tab = 0
   activeNode:any;
 
   glossary_data_source = new MatTableDataSource();
@@ -1351,13 +1351,18 @@ export class FragmentsComponent implements OnInit {
 
   protected request_sandbox(sandbox_title){
     let item1 = this.linnaeus_array.find(i => i['title'] === sandbox_title);
+    
+    console.log('item1', item1)
+    
     this.current_sandbox = new Sandbox(item1)
 
     console.log('current sandbox', this.current_sandbox)
 
-    this.index_table_data_source = new MatTableDataSource(this.current_sandbox['index'])
+    this.index_table_data_source = new MatTableDataSource(this.current_sandbox['animals'])
     this.glossary_data_source = new MatTableDataSource(this.current_sandbox['glossary'])
 
+    this.request_sandbox_content('Welcome')
+    this.current_animal_content = ''
   }
 
   protected request_sandbox_content(sandbox_content_title){
@@ -1393,7 +1398,7 @@ export class FragmentsComponent implements OnInit {
     // this.index_table_data_source.filter = filterValue.trim().toLowerCase();
 
     console.log('############ TESTING ############')
-    console.log(this.activeNode)
+    console.log(this.current_sandbox.title)
 
     // console.log(thing);
 

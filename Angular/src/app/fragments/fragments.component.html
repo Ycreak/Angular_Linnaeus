@@ -1,19 +1,12 @@
 <!-- Import the stylesheet for the Material icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!-- I think this can be removed. -->
-<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
-<!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-
-
-<!-- Maybe we should get a local stylesheet? -->
-<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
 <!-- Navigation bar -->
 <mat-toolbar color="primary">
     <span style="width: fit-content; transform: translateY(-1px)">
         <h3 
             class='navbar'>
-            Linnaeus
+            Angular Linnaeus
         </h3>
     </span>
 
@@ -23,74 +16,13 @@
             (click)="this.test('0')">
                 TEST
         </button>
-    
-    <!--
-    <button mat-stroked-button 
-        *ngIf="!this.commentary_enabled; else commentary_disabled"
-        class="navbar button-margin" 
-        (click)="this.toggle_commentary()">
-            COMMENTARY
-    </button>
-
-    <ng-template #commentary_disabled>
-        <button mat-flat-button 
-        color="accent"
-        class="button-margin"
-        (click)="this.toggle_commentary()">
-            COMMENTARY
-        </button>    
-    </ng-template>
-
-    <button mat-stroked-button 
-        *ngIf="!this.playground_enabled; else playground_disabled"
-        class="navbar button-margin" 
-        (click)="this.toggle_playground()">
-            PLAYGROUND
-    </button>
-
-    <ng-template #playground_disabled>
-        <button mat-flat-button 
-        class="button-margin"
-        color="accent"
-        (click)="this.toggle_playground()">
-            PLAYGROUND
-        </button>    
-    </ng-template>
-
-    <button mat-stroked-button 
-        class="navbar" 
-        [matMenuTriggerFor]="menu">
-            <mat-icon *ngIf="this.window_size > 850" fontIcon="menu"></mat-icon>
-            MENU
-    </button> -->
-
 </mat-toolbar>
-
-<!-- Navigation bar menu -->
-<!-- <mat-menu #menu="matMenu">
-    <div mat-menu-item>V22.11.16</div>
-</mat-menu> -->
-
-<!-- Loading spinner to show data is being retrieved from the server -->
-<!-- <mat-toolbar *ngIf="this.utility.spinner === false" class="progress-toolbar"></mat-toolbar>
-<mat-progress-bar *ngIf="this.utility.spinner" mode="query"></mat-progress-bar> -->
-
-<!-- Secondary toolbar to manage columns -->
 
 <div class="div-padding-lg"></div>
 
-<!-- <hr> -->
-
-<!-- {{ this.linnaeus_db['1'] }} -->
-
-<!-- <div *ngFor="let sandbox of this.linnaeus_array">
-    {{ sandbox.project_title }}
-</div> -->
-
-<!-- Deprecated since mat-form-field is so uncooperative now -->
-<mat-form-field [style.width.%]="90" appearance="outline">
+<mat-form-field [style.width.%]="95" appearance="outline">
     <mat-label>Select Sandbox</mat-label>
-    <mat-select>
+    <mat-select [(value)]="this.current_sandbox.title" >
         <mat-option *ngFor="let sandbox of this.linnaeus_array" [value]="sandbox.title"
             (click)="this.request_sandbox(sandbox.title)">
             {{ sandbox.title }} 
@@ -98,16 +30,15 @@
     </mat-select>
 </mat-form-field> 
 
-<hr>
+<!-- <hr> -->
 
 <mat-tab-group [(selectedIndex)]="this.current_tab">
     <!-- Introduction Tab -->
     <mat-tab label="Introduction"> 
-        <div class="div-padding-lg"></div>
-
-        <div class="container">
+        <hr>
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-3" style="outline: 2px dashed black;">
+                <div class="col-3 overflow_column" style="outline: 2px dashed black;">
                     <mat-selection-list [multiple]="false">
                         <mat-list-option *ngFor="let content_field of this.current_sandbox.introduction" [value]="content_field.title"
                         (click)="request_sandbox_content(content_field.title)">
@@ -115,7 +46,7 @@
                         </mat-list-option>
                     </mat-selection-list>
                 </div>
-                <div class="col-9">
+                <div class="col-9 px-md-5 overflow_column">
         
                     <p [innerHTML]="this.current_content.text | safeHtml"></p>
         
@@ -135,9 +66,9 @@
 
         <hr>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-5 overflow_column">
+                <div class="col-4 overflow_column">
                     <mat-tree 
                         [dataSource]="dataSource" 
                         [treeControl]="treeControl"
@@ -191,36 +122,9 @@
                         </mat-nested-tree-node>
                       </mat-tree>
                       
-
-                      <!-- <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
-                        <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
-                          <button mat-icon-button disabled></button>
-                          {{node.item}}
-                        </mat-tree-node>
-                        <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding
-                        [matTreeNodePaddingIndent]="10">
-                        <div 
-                            [attr.aria-label]="'Toggle ' + node.item" 
-                            (click)="this.test(node.item)" 
-                            matTreeNodeToggle
-                            style="cursor: pointer;">
-                            {{node.item}}
-                        </div>
-                          <button mat-icon-button (click)="this.test(node.item)"
-                                  [attr.aria-label]="'Toggle ' + node.item" matTreeNodeToggle>
-                            <mat-icon class="mat-icon-rtl-mirror">
-                              {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
-                            </mat-icon>
-                          </button>
-                        </mat-tree-node>
-                      </mat-tree> -->
-
-
-
-
                 </div>
 
-                <div class="col-7 overflow_column">
+                <div class="col-8 overflow_column">
 
                     <mat-tab-group>
                         <mat-tab label="Description"> <hr>
@@ -286,27 +190,26 @@
             <!-- Position Column -->
             <ng-container matColumnDef="animal_name">
             <th mat-header-cell *matHeaderCellDef mat-sort-header> Animal name </th>
-            <td mat-cell *matCellDef="let row"> {{row.animal_name}} </td>
+            <td mat-cell *matCellDef="let row"> {{row.name}} </td>
             </ng-container>
         
+            <ng-container matColumnDef="taxon">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Taxon </th>
+                <td mat-cell *matCellDef="let row"> {{row.taxon}} </td>
+            </ng-container>
+
             <!-- Name Column -->
-            <ng-container matColumnDef="id">
+            <ng-container matColumnDef="_id">
             <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
-            <td mat-cell *matCellDef="let row"> {{row.taxon_href_id}} </td>
+            <td mat-cell *matCellDef="let row"> {{row._id}} </td>
             </ng-container>
-        
-            <!-- Weight Column -->
-            <ng-container matColumnDef="category">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Category </th>
-                <td mat-cell *matCellDef="let row"> {{row.category}} </td>
-            </ng-container>
-               
+                       
             <tr mat-header-row *matHeaderRowDef="index_table_columns"></tr>
             <tr 
                 mat-row
                 (click)="this.current_tab = 2"
-                (click)="this.load_animal_data(row.animal_name)"
-                (click)="this.expand_tree_to_node(row.animal_name)"
+                (click)="this.load_animal_data(row.name)"
+                (click)="this.expand_tree_to_node(row.name)"
                 *matRowDef="let row; columns: index_table_columns;"
             ></tr>
 
